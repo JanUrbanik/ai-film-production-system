@@ -32,7 +32,8 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 | 4 | `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` | Imagine truth |
 | 5 | `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md` | MVP path |
 | 6 | `05_Workflows/INJECTION_ENGINE.md` + engines/ | Bibles → packets |
-| 7 | `09_Bridge/MASTER_BUILDER_HANDOFF.md` | Builder governance bridge |
+| 7 | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` | Grok-as-camera method (Odyssey) |
+| 8 | `09_Bridge/MASTER_BUILDER_HANDOFF.md` | Builder governance bridge |
 
 ## Modes
 
@@ -61,6 +62,7 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 00_Epistemics/          claim labels, anti-hype
 01_Architecture/        canonical pipeline + diagram corrections
 02_Tools/               Imagine matrix + adapters + contracts
+03_Knowledge/           practitioner method briefs (always-on)
 03_Roles/               production roles (not 16 Builder seats)
 04_Bibles/              templates for char/env/props
 05_Workflows/           MVP + feature + QC
@@ -68,7 +70,7 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 07_Prompts/             kickoff + shot templates
 08_Projects/            real project worktrees
 09_Bridge/              Master Builder handoff
-10_Sources/             diagrams + research snapshots
+10_Sources/             diagrams + research + practitioner transcripts
 ```
 
 ## Relationship to Master Builder Team
@@ -85,6 +87,7 @@ Bridge: charter a FULL job in Master Builder → deliver a film project brief �
 - Desktop diagrams (`2flowd/`, `new vid systal/`) — corrected in architecture  
 - `master-builder-team/01_Context/LONGFORM_AI_VIDEO_CONSISTENCY_WORKFLOW.md`  
 - Official xAI Imagine docs (2026): video gen/edit/extend/reference-to-video, image gen/edit  
+- Practitioner: Odyssey / Grok-as-camera method — https://www.youtube.com/watch?v=ZRtT-0SUw8M (`10_Sources/practitioners/`, `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md`)  
 
 ## Version
 
@@ -92,3 +95,4 @@ Bridge: charter a FULL job in Master Builder → deliver a film project brief �
 |-----|------|-------|
 | 0.1 | 2026-08-06 | Initial separate system + Imagine-first integration |
 | 1.0 | 2026-08-07 | Master Builder FULL harden: seats, engines, schema, stress test |
+| 1.1 | 2026-08-07 | Ingest PRAC-2026-001 Grok-as-camera / start-frame-first skills |

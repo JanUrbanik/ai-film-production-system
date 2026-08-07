@@ -12,3 +12,6 @@
 2. duration_target default 4–6s (API max 15).
 3. mode hint: i2v|r2v|t2v|extend|edit.
 4. Co-own field alignment with R7.
+5. Every card states SUBJECT + CAMERA + HOLD (`GROK_AS_CAMERA`).
+6. Mark speech shots for performance prompting.
+7. Plan start stills; no hero I2V until storyboard-worthy (`START_FRAME_FIRST`).

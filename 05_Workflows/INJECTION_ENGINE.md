@@ -13,6 +13,9 @@ Turn shot cards + locked bibles into valid **shot packets** for R8.
 2. Resolve IDs → ref paths (folder packs; optional vector DB later).  
 3. Attach preambles (char/env/prop/style).  
 4. Select mode: I2V > R2V > extend > edit > T2V.  
+4b. Hero cast/location: require storyboard-worthy start still before I2V (`START_FRAME_FIRST`).  
+4c. Enforce SUBJECT + CAMERA + HOLD (`GROK_AS_CAMERA`).  
+4d. Speech shots: dialogue + emotion + pauses/beats (`SPEECH_PERFORMANCE_PROMPT`).  
 5. Build `prompt.full_text` via skill `06_Skills/generation/PROMPT_PACKET.md`.  
 6. Fill `bible_pins` version strings.  
 7. Estimate cost: `takes_planned * duration * 0.08` (+ stills).  

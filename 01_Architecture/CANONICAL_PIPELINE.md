@@ -66,6 +66,8 @@ SHOWRUNNER (role)
 
 ## 4. Generation path priority (Imagine)
 
+**Practitioner reinforce (Odyssey method):** treat Imagine as a **camera / raw-footage engine**; nail **storyboard-worthy start frames** before motion so the video model only performs ordered action (`03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md`).
+
 For each shot, pick **one** primary mode:
 
 | Priority | Mode | When |

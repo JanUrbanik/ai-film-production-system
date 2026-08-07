@@ -12,10 +12,14 @@ Turn a shot card + locked bibles into one Imagine request.
 {{PROP_BLOCK}}
 
 FRAMING: {{framing}}. LENS: {{lens from style}}.
+SUBJECT: {{one verb phrase}}.
 CAMERA: {{one move}}, {{speed}}, stable subject.
-ACTION: {{one verb phrase}}.
+HOLD: match start frame/refs; {{continuity pins}}.
 AUDIO: {{audio_note}}.
+{{SPEECH_BLOCK if any — see SPEECH_PERFORMANCE_PROMPT}}
 STYLE: {{grade/tone from style contract}}.
+
+Practitioner mandatory triple: SUBJECT + CAMERA + HOLD (`GROK_AS_CAMERA`).
 
 AVOID: {{project negatives}}; identity drift; extra limbs; location morph.
 ```

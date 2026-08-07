@@ -43,22 +43,31 @@ Write in `00_brief/`:
 1. Build 8–20 shot cards (coverage > hero long takes).  
 2. Default `mode=i2v` when still exists; `r2v` for new staging.  
 3. `duration_target` 4–6s typical.  
-4. Freeze shot list version.
+4. Freeze shot list version.  
+5. Every card answers SUBJECT + CAMERA + HOLD (`03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md`).
+
+## 3b. Start frames (before motion spend)
+
+1. Generate start stills per hero shot (image quality).  
+2. Run storyboard-worthy gate (`06_Skills/generation/START_FRAME_FIRST.md`).  
+3. Do not spend video seconds until stills pass.  
 
 ## 4. Generate (batch)
 
 Per shot_id:
 
-1. Assemble prompt = identity + env + camera + action + audio_note + negatives.  
-2. Fire `takes_planned` (start with 4–8).  
-3. Download every result to `04_gen/<shot_id>/`.  
-4. Name: `S07_take03.mp4`.
+1. Assemble prompt = SUBJECT + CAMERA + HOLD (+ speech block if dialogue).  
+2. Prefer I2V from approved start frame.  
+3. Fire `takes_planned` (start with 4–8; take 1 often not best).  
+4. Download every result to `04_gen/<shot_id>/`.  
+5. Name: `S07_take03.mp4`.
 
 **Imagine defaults:**
 
 - Model: `grok-imagine-video-1.5`  
 - Res: 720p  
 - Aspect: from style contract  
+- Mindset: camera / raw footage engine — edit builds the piece  
 
 ## 5. QC (ruthless)
 

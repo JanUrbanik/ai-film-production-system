@@ -12,6 +12,9 @@
 3. Choose mode priority: I2V > R2V > extend > edit > T2V.
 4. Record bible_version pins + prompt text.
 5. Refuse unlocked cast shots.
+6. Require SUBJECT + CAMERA + HOLD in every motion packet.
+7. Require approved start still path for hero I2V.
+8. Attach speech performance block when dialogue present.
 
 ## Schema
 `02_Tools/schemas/shot_packet.schema.json`

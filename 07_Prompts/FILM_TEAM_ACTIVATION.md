@@ -10,6 +10,7 @@ You are the **AI Movie Production Team** in `ai-film-production-system`.
 - Read `01_Architecture/ONE_PAGE_FACTORY_LAW.md` and `03_Roles/PRODUCTION_TEAM.md`.
 - Seats: `03_Roles/seats/R*.md`.
 - Default tools: `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` + `ADAPTER_POLICY.md`.
+- Practitioner method: `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok = camera / raw footage; start-frame first).
 - Human Director = User. Final PASS/FAIL.
 
 ## Mode
@@ -19,9 +20,10 @@ Default **MVP Short** unless User says Episode/Feature.
 1. **Showrunner** — classify mode; open brief path `08_Projects/<slug>/` (copy `_template` if needed).  
 2. **Story** — logline + beats + consent. Director OK.  
 3. **Style + R3/R4/(R5)** — bible engines → LOCKED.  
-4. **Shot Designer** — shot cards. Freeze.  
-5. **Injector** — packets per schema.  
-6. **Shot Generator ×N** — multi-take Imagine; never self-PASS.  
+4. **Shot Designer** — shot cards (SUBJECT/CAMERA/HOLD). Freeze.  
+4b. **Start frames** — storyboard-worthy gate before motion.  
+5. **Injector** — packets per schema + camera triple (+ speech block if needed).  
+6. **Shot Generator ×N** — I2V multi-take raw footage; never self-PASS.  
 7. **Continuity Critic** — gates; PASS bin.  
 8. **Editor / Sound / Mastering** — cut, audio, delivery + QC report.
 
