@@ -1,22 +1,21 @@
-# Project template
+# sim_grok_camera_v1
 
-Copy this folder:
+**Type:** Dry-run / scaffold project  
+**Purpose:** Path-lock test for Grok-as-camera layout (not a finished film)
 
-```bash
-cp -R 08_Projects/_template 08_Projects/<slug>
-```
+## Status
 
-| Folder | Contents |
-|--------|----------|
-| `00_brief/` | logline, beats, consent |
-| `01_bibles/` | character/env/props/style docs |
-| `02_refs/` | image packs |
-| `03_shot_list/` | cards + packets |
-| `04_gen/` | raw takes |
-| `05_pass/` | QC passed only |
-| `06_edit/` | NLE + delivery |
-| `07_audio/` | VO/music/sfx |
-| `08_thumb/` | key art |
-| `09_qc_log/` | takes.csv, reports |
+| Item | State |
+|------|--------|
+| Folder tree from `_template` | Present |
+| Placeholder start-frame path locks | Present under `02_refs/` and `03_shot_list/stills/` |
+| Full brief / bibles / packets / QC log | **Not completed** |
+| Live Imagine generation | **Not run** |
 
-Start from `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md`.
+## Use
+
+1. Optional practice slug for docs-only expansion.  
+2. For a real piece, copy `_template` to a **new** slug.  
+3. Deploy gate: `../../05_Workflows/DEPLOYMENT_CHECKLIST.md`.
+
+Placeholder `*.txt` files stand in for PNG/JPG stills so paths can be referenced without binary assets.
