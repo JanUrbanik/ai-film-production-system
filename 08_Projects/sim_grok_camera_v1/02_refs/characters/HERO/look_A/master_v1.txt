@@ -1,0 +1,1 @@
+SIM_PLACEHOLDER_STILL path_lock=master_v1.txt — replace with real PNG in live run

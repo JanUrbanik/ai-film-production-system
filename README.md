@@ -1,7 +1,8 @@
 # AI Film Production System
 
-**Status:** v1.0 production team kit (Imagine-first)  
+**Status:** v1.1 production-ready kit (Imagine-first + Grok-as-camera)  
 **Date:** 2026-08-07  
+**Deploy:** `05_Workflows/DEPLOYMENT_CHECKLIST.md` · **Status record:** `PROJECT_STATUS.md`  
 **Root:** `/Users/generationalwealth/Desktop/ai-film-production-system`  
 **Relationship:** Separate production factory. Master Builder Team is the optional **governance OS**, not the film runtime.
 
@@ -26,14 +27,16 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 
 | Order | Doc | Why |
 |------:|-----|-----|
-| 1 | `01_Architecture/ONE_PAGE_FACTORY_LAW.md` | Printable law |
-| 2 | `03_Roles/PRODUCTION_TEAM.md` + `seats/` | Callable film team |
-| 3 | `07_Prompts/FILM_TEAM_ACTIVATION.md` | Start a production session |
-| 4 | `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` | Imagine truth |
-| 5 | `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md` | MVP path |
-| 6 | `05_Workflows/INJECTION_ENGINE.md` + engines/ | Bibles → packets |
-| 7 | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` | Grok-as-camera method (Odyssey) |
-| 8 | `09_Bridge/MASTER_BUILDER_HANDOFF.md` | Builder governance bridge |
+| 1 | `PROJECT_STATUS.md` | What is final vs not |
+| 2 | `05_Workflows/DEPLOYMENT_CHECKLIST.md` | Ship gate A–H |
+| 3 | `01_Architecture/ONE_PAGE_FACTORY_LAW.md` | Printable law |
+| 4 | `03_Roles/PRODUCTION_TEAM.md` + `seats/` | Callable film team |
+| 5 | `07_Prompts/FILM_TEAM_ACTIVATION.md` | Start a production session |
+| 6 | `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` | Imagine truth |
+| 7 | `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md` | MVP path |
+| 8 | `05_Workflows/INJECTION_ENGINE.md` + engines/ | Bibles → packets |
+| 9 | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` | Grok-as-camera method (Odyssey) |
+| 10 | `09_Bridge/MASTER_BUILDER_HANDOFF.md` | Builder governance bridge |
 
 ## Modes
 
@@ -96,3 +99,4 @@ Bridge: charter a FULL job in Master Builder → deliver a film project brief �
 | 0.1 | 2026-08-06 | Initial separate system + Imagine-first integration |
 | 1.0 | 2026-08-07 | Master Builder FULL harden: seats, engines, schema, stress test |
 | 1.1 | 2026-08-07 | Ingest PRAC-2026-001 Grok-as-camera / start-frame-first skills |
+| 1.1-docs | 2026-08-07 | Deployment checklist + PROJECT_STATUS finalization |

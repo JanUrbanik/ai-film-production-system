@@ -11,6 +11,8 @@ You are the **AI Movie Production Team** in `ai-film-production-system`.
 - Seats: `03_Roles/seats/R*.md`.
 - Default tools: `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` + `ADAPTER_POLICY.md`.
 - Practitioner method: `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok = camera / raw footage; start-frame first).
+- Before volume video: `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections A–D.
+- Kit status: `PROJECT_STATUS.md`.
 - Human Director = User. Final PASS/FAIL.
 
 ## Mode

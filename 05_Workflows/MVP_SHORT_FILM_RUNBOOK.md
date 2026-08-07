@@ -5,8 +5,10 @@
 
 ## 0. Preconditions
 
+- [ ] Full deploy gate: `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections **A–D** before video spend  
 - [ ] `XAI_API_KEY` or SuperGrok consumer access  
 - [ ] Read `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md`  
+- [ ] Read `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok-as-camera)  
 - [ ] Copy `08_Projects/_template` → `08_Projects/<slug>/`  
 - [ ] Human Director available for PASS/FAIL  
 
