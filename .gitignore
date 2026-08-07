@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+auth.json
+**/local_secrets/
+08_Projects/*/04_gen/
+08_Projects/*/05_pass/
+08_Projects/*/06_edit/
+08_Projects/*/07_audio/
+*.mp4
+*.mov
+*.wav
+!10_Sources/**/*.jpg

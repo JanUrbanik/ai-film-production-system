@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "shot_packet.schema.json",
+  "title": "FilmFactoryShotPacket",
+  "type": "object",
+  "required": [
+    "shot_id",
+    "mode",
+    "duration_target",
+    "aspect",
+    "resolution",
+    "prompt",
+    "bible_pins",
+    "status"
+  ],
+  "properties": {
+    "shot_id": { "type": "string", "pattern": "^S[0-9A-Za-z_-]+$" },
+    "sequence": { "type": "string" },
+    "mode": {
+      "type": "string",
+      "enum": ["i2v", "r2v", "t2v", "extend", "edit"]
+    },
+    "model_video": {
+      "type": "string",
+      "default": "grok-imagine-video-1.5"
+    },
+    "model_image": {
+      "type": "string",
+      "default": "grok-imagine-image-quality"
+    },
+    "duration_target": { "type": "integer", "minimum": 1, "maximum": 15 },
+    "aspect": {
+      "type": "string",
+      "enum": ["1:1", "16:9", "9:16", "4:3", "3:4", "3:2", "2:3"]
+    },
+    "resolution": { "type": "string", "enum": ["480p", "720p", "1080p"] },
+    "source_still": { "type": ["string", "null"] },
+    "source_video": { "type": ["string", "null"] },
+    "reference_images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "path"],
+        "properties": {
+          "role": { "type": "string" },
+          "path": { "type": "string" },
+          "tag": { "type": "string", "description": "e.g. IMAGE_1" }
+        }
+      }
+    },
+    "bible_pins": {
+      "type": "object",
+      "required": ["style"],
+      "properties": {
+        "character": { "type": "array", "items": { "type": "string" } },
+        "environment": { "type": "array", "items": { "type": "string" } },
+        "props": { "type": "array", "items": { "type": "string" } },
+        "style": { "type": "string" }
+      }
+    },
+    "prompt": {
+      "type": "object",
+      "required": ["full_text"],
+      "properties": {
+        "identity_block": { "type": "string" },
+        "env_block": { "type": "string" },
+        "prop_block": { "type": "string" },
+        "camera": { "type": "string" },
+        "action": { "type": "string" },
+        "audio_note": { "type": "string" },
+        "negatives": { "type": "string" },
+        "full_text": { "type": "string" }
+      }
+    },
+    "takes_planned": { "type": "integer", "minimum": 1, "default": 4 },
+    "adapter": {
+      "type": ["string", "null"],
+      "description": "null unless Director approved failure-class adapter"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "ready", "gen", "qc", "pass", "fail"]
+    },
+    "cost_estimate_usd": { "type": ["number", "null"] }
+  }
+}
