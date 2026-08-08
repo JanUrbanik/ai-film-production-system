@@ -31,6 +31,7 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 
 | Order | Doc | Why |
 |------:|-----|-----|
+| 0 | `HANDOFF.md` | New-chat continuity — state + next phase |
 | 1 | `PROJECT_STATUS.md` | What is final vs not |
 | 2 | `05_Workflows/DEPLOYMENT_CHECKLIST.md` | Ship gate A–H |
 | 3 | `01_Architecture/ONE_PAGE_FACTORY_LAW.md` | Printable law |

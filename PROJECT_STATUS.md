@@ -4,7 +4,8 @@
 **Version:** 1.2.1  
 **Date:** 2026-08-08  
 **GitHub release:** `v1.2.1` (see repo Releases)  
-**Git:** `main` (see `git log`)
+**Git:** `main` (see `git log`)  
+**New-chat handoff:** `HANDOFF.md`  
 
 ---
 
@@ -69,7 +70,7 @@
 | Live Imagine smoke test | Operator must run with real key/UI |
 | Finished narrative film | Production outcome, not kit deliverable |
 | Full `sim_grok_camera_v1` packet library | Scaffold only (still path locks); optional complete later |
-| GitHub remote | Local git only unless operator adds remote |
+| GitHub remote | **Live** — https://github.com/JanUrbanik/ai-film-production-system |
 | Multi-vendor default routing | Explicitly rejected as default law |
 | Embedding/vector DB MVP | Optional advanced only |
 | Full Odyssey transcript | Awaiting longer paste for knowledge v1.1+ |
