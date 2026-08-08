@@ -18,7 +18,8 @@ Produce short-to-long AI narrative video with locked bibles, Grok Imagine genera
 - Grok Build / API for automation  
 - Consumer Imagine UI allowed for human speed  
 - Master Builder FULL charter optional for governance-heavy jobs  
+- Marketplace plugins (superpowers, firecrawl, tavily, chrome-devtools): research/verify/planning only — see `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md`  
 
 ## When unsure
 
-Re-read capability matrix and re-verify docs.x.ai before expanding tool claims.
+Re-read capability matrix and re-verify docs.x.ai before expanding tool claims. Prefer installed plugins over reinventing research tools; never let plugins bypass bible/start-frame gates.

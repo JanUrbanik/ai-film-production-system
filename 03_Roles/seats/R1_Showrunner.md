@@ -20,6 +20,8 @@
 3. Enforce: no gen without LOCKED identity packs when cast on camera.
 4. Maintain cost ceiling awareness.
 5. On stage fail: one retry then escalate to Director with amendment.
+6. Optional: superpowers plan/verify before volume gen; open `PLUGIN_AUGMENTED_RESEARCH` when tool truth is stale.
+7. Never let plugins replace Imagine pixel path.
 
 ## Outputs
 - Showrunning plan

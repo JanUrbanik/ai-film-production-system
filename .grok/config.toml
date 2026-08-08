@@ -1,0 +1,48 @@
+# Grok Build configuration — AI Film Production System
+
+project_name = "AI Film Production System"
+primary_file = "AGENTS.md"
+factory_version = "1.2"
+default_generator = "grok-imagine"
+
+[factory]
+imagine_first = true
+grok_as_camera = true
+knowledge_camera = "03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md"
+deployment_checklist = "05_Workflows/DEPLOYMENT_CHECKLIST.md"
+adapter_policy = "02_Tools/ADAPTER_POLICY.md"
+marketplace_integration = "02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md"
+
+[team]
+production_seats = "03_Roles/PRODUCTION_TEAM.md"
+human_director = true
+governance_bridge = "master-builder-team (optional ADOPT A)"
+
+# User-level installs via Grok Build marketplace (xai-org/plugin-marketplace).
+# Expandable components — research/verify/planning only; pixels stay Imagine.
+[plugins_stack]
+marketplace = "xai-org/plugin-marketplace"
+installed = ["superpowers", "firecrawl", "tavily", "chrome-devtools"]
+planning_skills = "superpowers"
+research_mcp = "tavily"
+web_extract = "firecrawl"
+browser_mcp = "chrome-devtools"
+optional_catalog = ["exa", "figma", "tinyfish"]
+out_of_scope_mvp = ["stripe", "mongodb", "neon", "vercel", "railway", "sentry", "axiom", "cloudflare"]
+verified_date = "2026-08-08"
+kb_note = "Mirror of Builder ENTRY-009 stack; film policy in GROK_MARKETPLACE_INTEGRATION.md"
+
+[plugins_policy]
+required_for_mvp_pixels = false
+allowed_stages = ["research", "tool_verify", "docs_planning", "ui_claim_check"]
+forbidden = [
+  "replace_imagine_generation",
+  "bypass_start_frame_gate",
+  "bypass_bible_locks",
+  "silent_mcp_failure",
+  "multi_vendor_video_default",
+]
+on_auth_or_quota_failure = "escalate_to_director"
+
+[paths]
+relative_only_in_durable_docs = true

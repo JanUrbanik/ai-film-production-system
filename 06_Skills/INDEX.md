@@ -24,5 +24,7 @@
 |----|------|
 | K-PRAC-GROK-CAMERA-001 | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` |
 | Source PRAC-2026-001 | `10_Sources/practitioners/SOURCE_ZRtT-0SUw8M_ODYSSEY_GROK_CAMERA.md` |
+| Plugin stack ops | `ops/PLUGIN_STACK.md` | Marketplace expandable tools |
+| Marketplace policy | `../02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md` | Catalog + seat map |
 
 Camera skills live here (not in Master Builder `08_Skills/`). Team constitution: `03_Roles/PRODUCTION_TEAM.md`.

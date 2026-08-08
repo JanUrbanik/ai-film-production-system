@@ -1,8 +1,8 @@
 # Project status — AI Film Production System
 
-**Status:** PRODUCTION-READY KIT (docs + seats + Imagine-first method)  
-**Version:** 1.1  
-**Date:** 2026-08-07  
+**Status:** PRODUCTION-READY KIT (docs + seats + Imagine-first + marketplace plugins)  
+**Version:** 1.2  
+**Date:** 2026-08-08  
 **Git:** `main` (see `git log`)
 
 ---
@@ -26,6 +26,8 @@
 | Activation / kickoff prompts | Final v1.1 | `07_Prompts/` |
 | Master Builder bridge | Final | `09_Bridge/`, Builder KB ENTRY-012 |
 | Source archives | Final for ingested set | `10_Sources/` |
+| Marketplace plugin integration | Final v1.2 | `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md`, `.grok/` |
+| Plugin research branch | Final v1.2 | `05_Workflows/PLUGIN_AUGMENTED_RESEARCH.md` |
 
 ---
 
@@ -90,6 +92,7 @@
 | 1.0 | 2026-08-07 | Master Builder FULL harden: seats, engines, schema |
 | 1.1 | 2026-08-07 | Odyssey Grok-as-camera knowledge + skills + wire-up |
 | 1.1-docs | 2026-08-07 | Deployment checklist + this status finalization |
+| 1.2 | 2026-08-08 | Grok marketplace expandable plugins wired into factory |
 
 ---
 

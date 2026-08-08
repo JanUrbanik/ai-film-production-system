@@ -9,3 +9,4 @@
 4. **Never** treat embedding scores or “92/100” as Imagine outputs.  
 5. Showrunner or Human Director must approve adapter spend.  
 6. Re-read `GROK_IMAGINE_CAPABILITY_MATRIX.md` before claiming new limits.  
+7. Grok **marketplace plugins** (superpowers/firecrawl/tavily/chrome-devtools) are **not** video adapters — research/verify/plan only (`plugins/GROK_MARKETPLACE_INTEGRATION.md`).  

@@ -2,6 +2,9 @@
 .env
 .env.*
 auth.json
+**/.grok/**/auth.json
+**/.grok/**/secrets*
+.grok/memory/local_*
 **/local_secrets/
 08_Projects/*/04_gen/
 08_Projects/*/05_pass/

@@ -9,6 +9,7 @@
 - [ ] `XAI_API_KEY` or SuperGrok consumer access  
 - [ ] Read `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md`  
 - [ ] Read `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok-as-camera)  
+- [ ] Optional research branch: `05_Workflows/PLUGIN_AUGMENTED_RESEARCH.md` (marketplace plugins)  
 - [ ] Copy `08_Projects/_template` → `08_Projects/<slug>/`  
 - [ ] Human Director available for PASS/FAIL  
 

@@ -21,6 +21,9 @@ Use this before the first real production run and again before any paid gen camp
 - [ ] Generation access ready: SuperGrok / `grok.com/imagine` and/or `XAI_API_KEY` + xAI SDK
 - [ ] NLE installed (CapCut or DaVinci)
 - [ ] Disk space for stills + multi-take video downloads
+- [ ] Optional plugins (Grok Build): `grok plugin list` shows superpowers/firecrawl/tavily/chrome-devtools
+- [ ] Optional: `grok mcp doctor` healthy if using research/browser MCP this session
+- [ ] Read `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md` if using plugins
 - [ ] Optional: Master Builder only if running a governed charter
 
 ---

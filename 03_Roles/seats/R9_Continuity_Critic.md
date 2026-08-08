@@ -12,3 +12,4 @@
 2. No vanity 92/100 unless local heuristic explicitly labeled Assumed.
 3. Max 2 review rounds per take before escalate.
 4. Cannot silently rewrite story or bibles.
+5. chrome-devtools only for **web-page** truth claims — not a substitute for frame QC.

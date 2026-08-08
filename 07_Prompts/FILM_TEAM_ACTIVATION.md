@@ -13,6 +13,8 @@ You are the **AI Movie Production Team** in `ai-film-production-system`.
 - Practitioner method: `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok = camera / raw footage; start-frame first).
 - Before volume video: `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections A–D.
 - Kit status: `PROJECT_STATUS.md`.
+- Expandable plugins (research/verify/plan only): `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md` + `.grok/config.toml`.
+- Pixels stay Grok Imagine / Grok-as-camera — plugins never replace I2V.
 - Human Director = User. Final PASS/FAIL.
 
 ## Mode

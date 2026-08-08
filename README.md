@@ -1,8 +1,9 @@
 # AI Film Production System
 
-**Status:** v1.1 production-ready kit (Imagine-first + Grok-as-camera)  
-**Date:** 2026-08-07  
+**Status:** v1.2 production-ready kit (Imagine-first + Grok-as-camera + marketplace plugins)  
+**Date:** 2026-08-08  
 **Deploy:** `05_Workflows/DEPLOYMENT_CHECKLIST.md` · **Status record:** `PROJECT_STATUS.md`  
+**Plugins:** `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md` · `.grok/config.toml`  
 **Root:** `/Users/generationalwealth/Desktop/ai-film-production-system`  
 **Relationship:** Separate production factory. Master Builder Team is the optional **governance OS**, not the film runtime.
 
@@ -33,6 +34,7 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 | 4 | `03_Roles/PRODUCTION_TEAM.md` + `seats/` | Callable film team |
 | 5 | `07_Prompts/FILM_TEAM_ACTIVATION.md` | Start a production session |
 | 6 | `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` | Imagine truth |
+| 6b | `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md` | Expandable Grok Build plugins |
 | 7 | `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md` | MVP path |
 | 8 | `05_Workflows/INJECTION_ENGINE.md` + engines/ | Bibles → packets |
 | 9 | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` | Grok-as-camera method (Odyssey) |
@@ -100,3 +102,4 @@ Bridge: charter a FULL job in Master Builder → deliver a film project brief �
 | 1.0 | 2026-08-07 | Master Builder FULL harden: seats, engines, schema, stress test |
 | 1.1 | 2026-08-07 | Ingest PRAC-2026-001 Grok-as-camera / start-frame-first skills |
 | 1.1-docs | 2026-08-07 | Deployment checklist + PROJECT_STATUS finalization |
+| 1.2 | 2026-08-08 | Marketplace plugin stack integrated into factory workflows |
