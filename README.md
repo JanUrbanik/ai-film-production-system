@@ -42,6 +42,7 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 | 8 | `05_Workflows/INJECTION_ENGINE.md` + engines/ | Bibles → packets |
 | 9 | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` | Grok-as-camera method (Odyssey) |
 | 10 | `09_Bridge/MASTER_BUILDER_HANDOFF.md` | Builder governance bridge |
+| 11 | `06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md` | Next phase: scale team + advanced plugins |
 
 ## Modes
 

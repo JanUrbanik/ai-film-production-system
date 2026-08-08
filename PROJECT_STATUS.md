@@ -76,6 +76,10 @@
 
 ---
 
+## Next development phase
+
+See **`06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md`**: scale production team (R1b, Episode/Feature ops) + advanced marketplace plugins (exa/figma/… under admission control), after hygiene and live Imagine smoke.
+
 ## How to deploy (short)
 
 1. Open factory root  
