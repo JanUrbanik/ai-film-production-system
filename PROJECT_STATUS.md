@@ -1,9 +1,9 @@
 # Project status — AI Film Production System
 
 **Status:** PRODUCTION-READY KIT (docs + seats + Imagine-first + marketplace plugins)  
-**Version:** 1.2.1  
+**Version:** 1.2.2  
 **Date:** 2026-08-08  
-**GitHub release:** `v1.2.1` (see repo Releases)  
+**GitHub release:** `v1.2.1` baseline; hygiene → `v1.2.2` when tagged  
 **Git:** `main` (see `git log`)  
 **New-chat handoff:** `HANDOFF.md`  
 
@@ -23,6 +23,8 @@
 | Bible templates + engines | Final v1 | `04_Bibles/templates/`, `05_Workflows/engines/` |
 | MVP / feature / QC / injection | Final v1.1 (camera method wired) | `05_Workflows/*` |
 | Deployment checklist | Final v1.1 | `05_Workflows/DEPLOYMENT_CHECKLIST.md` |
+| Production deploy (real shoots) | Final v1.0 | `05_Workflows/PRODUCTION_DEPLOY.md` |
+| Simulation archive | Final Phase A | `11_Archive/simulations/` |
 | Skills (incl. Grok-as-camera) | Final v1.1 | `06_Skills/` |
 | Practitioner knowledge | Final v1.0 brief (partial transcript) | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` |
 | Activation / kickoff prompts | Final v1.1 | `07_Prompts/` |
@@ -67,13 +69,22 @@
 
 | Item | Notes |
 |------|--------|
-| Live Imagine smoke test | Operator must run with real key/UI |
+| Live Imagine smoke test | Operator must run with real key/UI (Phase B) |
 | Finished narrative film | Production outcome, not kit deliverable |
-| Full `sim_grok_camera_v1` packet library | Scaffold only (still path locks); optional complete later |
-| GitHub remote | **Live** — https://github.com/JanUrbanik/ai-film-production-system |
+| Archived sims packet depth | `11_Archive/simulations/sim_grok_camera_v1` scaffold-only; `sim_mvp_deploy_v1` docs dry-run PASS — not live projects |
 | Multi-vendor default routing | Explicitly rejected as default law |
 | Embedding/vector DB MVP | Optional advanced only |
 | Full Odyssey transcript | Awaiting longer paste for knowledge v1.1+ |
+
+## Repository
+
+| Item | State |
+|------|--------|
+| GitHub remote | **Live** — https://github.com/JanUrbanik/ai-film-production-system |
+| Default branch | `main` |
+| Releases | `v1.2`, `v1.2.1` (+ hygiene tag if cut) |
+| Active projects folder | `08_Projects/` — `_template` + real slugs only |
+| Retired dry-runs | `11_Archive/simulations/` |
 
 ---
 
@@ -84,10 +95,11 @@ See **`06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md`**: scale producti
 ## How to deploy (short)
 
 1. Open factory root  
-2. Follow `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections A–D before any video spend  
-3. Activate via `07_Prompts/FILM_TEAM_ACTIVATION.md`  
-4. Run MVP: `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md`  
-5. Sign off checklist G before calling the piece “shipped”
+2. Read `05_Workflows/PRODUCTION_DEPLOY.md` (go-live)  
+3. Follow `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections A–D before any video spend  
+4. Activate via `07_Prompts/FILM_TEAM_ACTIVATION.md`  
+5. Run MVP: `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md`  
+6. Sign off checklist G before calling the piece “shipped”
 
 ---
 
@@ -101,6 +113,7 @@ See **`06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md`**: scale producti
 | 1.1-docs | 2026-08-07 | Deployment checklist + this status finalization |
 | 1.2 | 2026-08-08 | Grok marketplace expandable plugins wired into factory |
 | 1.2.1 | 2026-08-08 | README marketplace docs; verify script; release finalize |
+| 1.2.2 | 2026-08-08 | Phase A hygiene: archive sims, PRODUCTION_DEPLOY, status/path fixes |
 
 ---
 

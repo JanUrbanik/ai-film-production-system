@@ -1,9 +1,9 @@
 # AI Film Production System
 
-**Status:** v1.2.1 production-ready kit (Imagine-first + Grok-as-camera + marketplace plugins)  
+**Status:** v1.2.2 production-ready kit (Imagine-first + Grok-as-camera + marketplace plugins)  
 **Date:** 2026-08-08  
 **Release:** https://github.com/JanUrbanik/ai-film-production-system/releases  
-**Deploy:** `05_Workflows/DEPLOYMENT_CHECKLIST.md` · **Status:** `PROJECT_STATUS.md` · **Changelog:** `CHANGELOG.md`  
+**Deploy:** `05_Workflows/PRODUCTION_DEPLOY.md` · `05_Workflows/DEPLOYMENT_CHECKLIST.md` · **Status:** `PROJECT_STATUS.md` · **Changelog:** `CHANGELOG.md`  
 **Plugins:** `02_Tools/plugins/` · `.grok/config.toml` · verify: `./scripts/verify_plugin_stack.sh`  
 **Root:** `/Users/generationalwealth/Desktop/ai-film-production-system`  
 **Relationship:** Separate production factory. Master Builder Team is the optional **governance OS**, not the film runtime.
@@ -33,7 +33,8 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 |------:|-----|-----|
 | 0 | `HANDOFF.md` | New-chat continuity — state + next phase |
 | 1 | `PROJECT_STATUS.md` | What is final vs not |
-| 2 | `05_Workflows/DEPLOYMENT_CHECKLIST.md` | Ship gate A–H |
+| 2 | `05_Workflows/PRODUCTION_DEPLOY.md` | Go-live for real shoots |
+| 2b | `05_Workflows/DEPLOYMENT_CHECKLIST.md` | Ship gate A–H |
 | 3 | `01_Architecture/ONE_PAGE_FACTORY_LAW.md` | Printable law |
 | 4 | `03_Roles/PRODUCTION_TEAM.md` + `seats/` | Callable film team |
 | 5 | `07_Prompts/FILM_TEAM_ACTIVATION.md` | Start a production session |
@@ -142,9 +143,10 @@ scripts/                verify_plugin_stack.sh and tooling
 06_Skills/              reusable prompt/ops skills (incl. ops/)
 07_Prompts/             kickoff + shot templates
 07_Outputs/             verification reports (kit-level)
-08_Projects/            real project worktrees
+08_Projects/            real project worktrees (`_template` + live slugs)
 09_Bridge/              Master Builder handoff
 10_Sources/             diagrams + research + practitioner transcripts
+11_Archive/             retired sims and kit artifacts
 CHANGELOG.md            release history
 ```
 
@@ -175,3 +177,4 @@ Bridge: charter a FULL job in Master Builder → deliver a film project brief �
 | 1.1-docs | 2026-08-07 | Deployment checklist + PROJECT_STATUS finalization |
 | 1.2 | 2026-08-08 | Marketplace plugin stack integrated into factory workflows |
 | 1.2.1 | 2026-08-08 | README marketplace docs; verify script + stack snapshot; release finalize |
+| 1.2.2 | 2026-08-08 | Phase A: archive sims → `11_Archive/`, `PRODUCTION_DEPLOY.md`, status hygiene |

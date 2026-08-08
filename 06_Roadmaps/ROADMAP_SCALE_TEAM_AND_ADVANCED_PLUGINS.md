@@ -211,9 +211,9 @@ Adjust to budget; **never skip B before E**.
 ## 6. Milestone checklist (copy into new chat)
 
 ### M0 — Ready to scale
-- [ ] HANDOFF.md on main  
-- [ ] Sims archived  
-- [ ] verify_plugin_stack.sh green  
+- [x] HANDOFF.md on main  
+- [x] Sims archived  
+- [x] verify_plugin_stack.sh green  
 - [ ] Imagine smoke note exists  
 
 ### M1 — Team scale v1

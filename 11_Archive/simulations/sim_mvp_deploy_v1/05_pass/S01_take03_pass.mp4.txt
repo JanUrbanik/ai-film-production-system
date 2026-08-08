@@ -1,0 +1,1 @@
+SIM_RAW_TAKE shot=S01 take=03 mode=i2v request_id=sim-s01-t03 result=pass

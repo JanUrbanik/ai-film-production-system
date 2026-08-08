@@ -2,10 +2,10 @@
 
 **For:** New agent chats / Human Director  
 **Updated:** 2026-08-08  
-**Kit version:** **v1.2.1** (tags `v1.2`, `v1.2.1` on `main`)  
-**HEAD (at handoff write):** `3891d8c` — HANDOFF.md on main (includes scale roadmap `7663f7c`)  
-**Working tree expectation:** clean `main` == `origin/main` unless noted  
-**Verified pre-send:** 2026-08-08 — all critical paths present; plugin verify 16/16; Phase A archive/PRODUCTION_DEPLOY still open  
+**Kit version:** **v1.2.2** (hygiene on top of tags `v1.2` / `v1.2.1`; tag `v1.2.2` when Director cuts release)  
+**HEAD (at handoff write):** local Phase A hygiene — commit after Director approval  
+**Working tree expectation:** Phase A edits may be uncommitted until Director says commit/push  
+**Verified this session:** 2026-08-08 — plugin verify 16/16 exit 0; sims archived; `PRODUCTION_DEPLOY.md` added  
 
 ---
 
@@ -59,7 +59,8 @@
 | Plugin policy + verify script | Done | `02_Tools/plugins/`, `scripts/verify_plugin_stack.sh` |
 | Activation prompts | Done | `07_Prompts/FILM_TEAM_ACTIVATION.md` |
 | Scale roadmap | Done | `06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md` |
-| Releases | Done | GitHub Releases **v1.2**, **v1.2.1** |
+| Handoff + Phase A hygiene | Done this session | `HANDOFF.md`, `11_Archive/`, `PRODUCTION_DEPLOY.md` |
+| Releases | Done | GitHub Releases **v1.2**, **v1.2.1** (v1.2.2 optional tag) |
 
 ### 3.2 Verification already run
 
@@ -68,7 +69,7 @@
 | Plugin stack script | 16 PASS / 0 FAIL | `07_Outputs/PLUGIN_STACK_VERIFY_20260808.md` |
 | Plugin E2E (post Tavily OAuth) | PASS, MCP 4/4 | `07_Outputs/E2E_PLUGIN_WORKFLOW_TEST_2026-08-08.md` |
 | Final kit E2E (docs+sim+plugins) | PASS | `07_Outputs/FINAL_E2E_PRODUCTION_WORKFLOW_2026-08-08.md` |
-| MVP dry-run sim | Packets/QC OK | `08_Projects/sim_mvp_deploy_v1/` |
+| MVP dry-run sim | Packets/QC OK (archived) | `11_Archive/simulations/sim_mvp_deploy_v1/` |
 
 ### 3.3 Known environment notes
 
@@ -76,7 +77,8 @@
 - **Firecrawl / chrome-devtools / superpowers:** Were healthy at last verify.  
 - **Grok CLI:** On PATH via `~/.grok/bin`.  
 - **NordVPN:** Caused Warp agent drops when full-tunnel; keep off or split-tunnel Warp.  
-- **`PROJECT_STATUS.md`** may still say “GitHub remote = local only” in one table row — **stale**; remote is live (fix when touching that file).  
+- **`PROJECT_STATUS.md`:** GitHub remote documented as **live** (Phase A fix).  
+- **`08_Projects/`:** production-clean — only `_template` until a real slug is created.  
 
 ---
 
@@ -86,12 +88,13 @@
 |------|----------|
 | Live **Imagine still → I2V smoke** (real paid/API pixels) | **P0** before scaling spend |
 | First **real** project slug (not `sim_*`) | **P0/P1** |
-| Archive `08_Projects/sim_grok_camera_v1` + `sim_mvp_deploy_v1` → `11_Archive/simulations/` | **P1** hygiene |
-| `05_Workflows/PRODUCTION_DEPLOY.md` | **P1** |
-| R1b Sequence Manager as own seat + Episode activation prompts | **P1** (scale) |
-| Advanced plugins (exa, figma, …) under admission control | **P2** after hygiene + smoke |
+| Commit/push Phase A + optional tag **v1.2.2** | **P1** (Director) |
+| R1b Sequence Manager as own seat + Episode activation prompts | **P1** (scale / Phase C) |
+| Advanced plugins (exa, figma, …) under admission control | **P2** after smoke |
 | Fuller Odyssey transcript → knowledge bump | **P3** |
 | Multi-vendor adapters | **P3** only on named failure class |
+
+**Phase A closed this session:** sims → `11_Archive/simulations/`; `PRODUCTION_DEPLOY.md`; status/README/checklist path fixes.  
 
 ---
 
@@ -102,7 +105,7 @@
 
 | Phase | Name | Intent |
 |-------|------|--------|
-| **A** | Hygiene & handoff | This file, archive sims, status fixes, PRODUCTION_DEPLOY |
+| **A** | Hygiene & handoff | **DONE** — handoff, archive sims, status fixes, PRODUCTION_DEPLOY |
 | **B** | Live pixel proof | One real I2V clip + smoke report |
 | **C** | Scale production team | R1b, Episode/Feature activation, R8 fleet, sequence QC, cost ledger |
 | **D** | Advanced marketplace plugins | Admission control; exa/figma first; verify script updates |
@@ -149,11 +152,12 @@ git pull origin main
 3. `PROJECT_STATUS.md`  
 4. `README.md`  
 5. `01_Architecture/ONE_PAGE_FACTORY_LAW.md`  
-6. `05_Workflows/DEPLOYMENT_CHECKLIST.md`  
-7. `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md`  
-8. `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md`  
-9. `07_Outputs/FINAL_E2E_PRODUCTION_WORKFLOW_2026-08-08.md`  
-10. `03_Roles/PRODUCTION_TEAM.md`  
+6. `05_Workflows/PRODUCTION_DEPLOY.md`  
+7. `05_Workflows/DEPLOYMENT_CHECKLIST.md`  
+8. `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md`  
+9. `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md`  
+10. `07_Outputs/FINAL_E2E_PRODUCTION_WORKFLOW_2026-08-08.md`  
+11. `03_Roles/PRODUCTION_TEAM.md`  
 
 ---
 
@@ -178,9 +182,9 @@ README.md
 
 Laws: Imagine-first; Grok-as-camera (start-frame first; SUBJECT+CAMERA+HOLD); plugins=research/verify/plan only; no multi-vendor default; separate from master-builder-team; Human Director=me; Verified/Assumed/Speculative labels.
 
-Open work per HANDOFF: Phase A hygiene (archive sims, PRODUCTION_DEPLOY, status fix) → Phase B Imagine smoke → Phase C team scale → Phase D advanced plugins.
+Open work per HANDOFF: Phase A DONE → Phase B Imagine smoke → Phase C team scale → Phase D advanced plugins.
 
-My next task: [Phase A | Phase B smoke | start real MVP slug ___ | install plugin ___]
+My next task: [Phase B smoke | start real MVP slug ___ | Phase C R1b | install plugin ___]
 
 Confirm reads in ≤10 bullets, then execute. Stop for approval before paid Imagine volume or new plugin installs.
 ```
@@ -189,10 +193,10 @@ Confirm reads in ≤10 bullets, then execute. Stop for approval before paid Imag
 
 ## 9. Immediate recommended next tasks (pick one)
 
-1. **Phase A:** Archive `sim_*`, add `PRODUCTION_DEPLOY.md`, fix `PROJECT_STATUS` GitHub row, commit/push.  
+1. **Commit Phase A:** Review diff, commit/push, optional tag `v1.2.2`.  
 2. **Phase B:** Run one paid/API Imagine still→I2V smoke; write `07_Outputs/IMAGINE_SMOKE_*.md`.  
 3. **Phase C start:** Author `R1b_Sequence_Manager.md` + Episode activation prompt.  
-4. **Phase D start:** Director-charter + install **exa** or **figma** only after A/B.  
+4. **Phase D start:** Director-charter + install **exa** or **figma** only after B.  
 
 ---
 
@@ -201,5 +205,6 @@ Confirm reads in ≤10 bullets, then execute. Stop for approval before paid Imag
 | Ver | Date | Notes |
 |-----|------|-------|
 | 1.0 | 2026-08-08 | Initial handoff for new-chat continuity at kit v1.2.1 + scale roadmap |
+| 1.1 | 2026-08-08 | Phase A complete: archive sims, PRODUCTION_DEPLOY, status hygiene → v1.2.2 |
 
 **Maintainer:** Update this file at the end of each major session (HEAD, open work, blockers).

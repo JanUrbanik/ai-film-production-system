@@ -109,11 +109,12 @@ Use this before the first real production run and again before any paid gen camp
 
 ## H. Optional hardening (not required for first deploy)
 
-- [ ] Full docs-only dry-run under `08_Projects/sim_grok_camera_v1` (packets + fake QC)
-- [ ] Minimal paid smoke: 1 still → 1 I2V → download → QC note
-- [ ] GitHub remote / backup off-machine
+- [ ] Review archived docs-only dry-runs under `11_Archive/simulations/` (reference only)
+- [ ] Minimal paid smoke: 1 still → 1 I2V → download → QC note (`PRODUCTION_DEPLOY.md` §5)
+- [ ] Backup off-machine (GitHub remote is live)
 - [ ] Fuller Odyssey transcript → bump `K-PRAC-GROK-CAMERA-001`
 - [ ] Re-verify docs.x.ai duration/pricing before large campaigns
+- [ ] Read go-live guide: `05_Workflows/PRODUCTION_DEPLOY.md`
 
 ---
 

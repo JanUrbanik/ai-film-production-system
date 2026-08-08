@@ -1,0 +1,1 @@
+SIM_RAW_TAKE shot=S04 take=01 mode=i2v request_id=sim-s04-t01 result=fail

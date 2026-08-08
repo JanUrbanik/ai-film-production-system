@@ -5,6 +5,7 @@
 
 ## 0. Preconditions
 
+- [ ] Go-live: `05_Workflows/PRODUCTION_DEPLOY.md`  
 - [ ] Full deploy gate: `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections **A–D** before video spend  
 - [ ] `XAI_API_KEY` or SuperGrok consumer access  
 - [ ] Read `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md`  

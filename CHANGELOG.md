@@ -1,5 +1,21 @@
 # Changelog — AI Film Production System
 
+## [1.2.2] — 2026-08-08
+
+### Added
+- `05_Workflows/PRODUCTION_DEPLOY.md` — go-live guide for real shoots
+- `11_Archive/` + `simulations/` — retired docs-only dry-runs
+
+### Changed
+- Moved `08_Projects/sim_grok_camera_v1` and `sim_mvp_deploy_v1` → `11_Archive/simulations/`
+- `08_Projects/` production-clean (`_template` only until real slugs)
+- `PROJECT_STATUS.md` / `README.md` / deploy checklist paths updated for archive + live GitHub remote
+- `HANDOFF.md` refreshed for Phase A exit → Phase B next
+
+### Notes
+- Optional release tag `v1.2.2` when Director approves commit/push
+- Live Imagine smoke remains Phase B (not a kit docs blocker)
+
 ## [1.2.1] — 2026-08-08
 
 ### Added
