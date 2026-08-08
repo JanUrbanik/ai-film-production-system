@@ -7,7 +7,8 @@
 
 - [ ] Go-live: `05_Workflows/PRODUCTION_DEPLOY.md`  
 - [ ] Full deploy gate: `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections **A–D** before video spend  
-- [ ] `XAI_API_KEY` or SuperGrok consumer access  
+- [ ] SuperGrok Heavy consumer Imagine access (weekly pool first)  
+- [ ] API key **only** if Director unlocked after pool/extras exhausted (`02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`)  
 - [ ] Read `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md`  
 - [ ] Read `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok-as-camera)  
 - [ ] Optional research branch: `05_Workflows/PLUGIN_AUGMENTED_RESEARCH.md` (marketplace plugins)  

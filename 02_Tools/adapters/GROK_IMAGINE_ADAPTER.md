@@ -3,13 +3,20 @@
 **Status:** production default  
 **Authority:** `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md`
 
-## Auth
+## Auth & spend (binding)
+
+**Default production path:** SuperGrok Heavy **consumer** Imagine (`grok.com/imagine` / apps) — draws the **weekly subscription pool**.  
+See `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`.
+
+**API path (overflow only):**
 
 ```bash
-export XAI_API_KEY="..."   # never commit
+export XAI_API_KEY="..."   # never commit; Director unlock required if weekly pool remains
 ```
 
-Python: `xai_sdk.Client(api_key=os.environ["XAI_API_KEY"])`
+Python: `xai_sdk.Client(api_key=os.environ["XAI_API_KEY"])`  
+
+**Do not** use API adapters while Heavy weekly Imagine headroom remains unless Director explicitly orders API.
 
 ## Contracts
 

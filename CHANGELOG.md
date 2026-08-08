@@ -5,16 +5,20 @@
 ### Added
 - `05_Workflows/PRODUCTION_DEPLOY.md` — go-live guide for real shoots
 - `11_Archive/` + `simulations/` — retired docs-only dry-runs
+- `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md` — SuperGrok Heavy weekly pool before API credits
+- `08_Projects/smoke_imagine_v1/` — Phase B consumer Imagine smoke pack
+- `07_Outputs/IMAGINE_SMOKE_20260808.md` — smoke report scaffold
 
 ### Changed
 - Moved `08_Projects/sim_grok_camera_v1` and `sim_mvp_deploy_v1` → `11_Archive/simulations/`
-- `08_Projects/` production-clean (`_template` only until real slugs)
+- `08_Projects/` production-clean (`_template` + real slugs only)
 - `PROJECT_STATUS.md` / `README.md` / deploy checklist paths updated for archive + live GitHub remote
-- `HANDOFF.md` refreshed for Phase A exit → Phase B next
+- Factory law / AGENTS / adapter: consumer Heavy-first spend
+- `HANDOFF.md` refreshed for Phase A exit → Phase B consumer smoke
 
 ### Notes
-- Optional release tag `v1.2.2` when Director approves commit/push
-- Live Imagine smoke remains Phase B (not a kit docs blocker)
+- Optional release tag `v1.2.2` when Director approves push
+- Pixel smoke completes when Director downloads still+I2V from grok.com/imagine into smoke project
 
 ## [1.2.1] — 2026-08-08
 

@@ -18,7 +18,8 @@ Use this before the first real production run and again before any paid gen camp
   - `01_Architecture/ONE_PAGE_FACTORY_LAW.md`  
   - `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md`  
   - `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md`
-- [ ] Generation access ready: SuperGrok / `grok.com/imagine` and/or `XAI_API_KEY` + xAI SDK
+- [ ] Generation access ready: **SuperGrok Heavy** → `grok.com/imagine` (weekly pool first)
+- [ ] Settings → Usage checked; API key path only if Director unlocked after pool/extras exhausted (`02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`)
 - [ ] NLE installed (CapCut or DaVinci)
 - [ ] Disk space for stills + multi-take video downloads
 - [ ] Optional plugins (Grok Build): `./scripts/verify_plugin_stack.sh` exits 0

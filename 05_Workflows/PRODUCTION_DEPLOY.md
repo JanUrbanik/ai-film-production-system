@@ -36,7 +36,9 @@ git pull origin main
 
 - [ ] On `main` (or intentional production branch); working tree understood  
 - [ ] Read: `HANDOFF.md`, `ONE_PAGE_FACTORY_LAW.md`, `PRACTITIONER_GROK_AS_CAMERA.md`  
-- [ ] Imagine access: SuperGrok / `grok.com/imagine` and/or `XAI_API_KEY`  
+- [ ] Imagine access: **SuperGrok Heavy** login on `grok.com/imagine` (default)  
+- [ ] Settings → Usage: weekly pool headroom noted (see `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`)  
+- [ ] `XAI_API_KEY` **not** used unless Director unlocked API after pool/extras exhausted  
 - [ ] NLE ready (CapCut or DaVinci); disk for multi-take downloads  
 - [ ] NordVPN **off** or **split-tunnel Warp** (avoids agent/MCP drops)  
 - [ ] Director available for PASS/FAIL and budget ceiling  
@@ -119,11 +121,12 @@ Minimum proof on a **real** slug (can be tiny):
 
 | Step | Done-when |
 |------|-----------|
-| B1 Auth | SuperGrok and/or API key works |
-| B2 Still | One LOCKED still on disk under project refs |
+| B1 Auth | SuperGrok Heavy consumer login works; Usage pool checked |
+| B2 Still | One LOCKED still via **consumer Imagine** on disk under project refs |
 | B3 Gate | Start-frame gate row logged PASS |
-| B4 I2V | One 4–6s @ 720p clip downloaded |
-| B5 Report | `07_Outputs/IMAGINE_SMOKE_YYYYMMDD.md` with cost + QC note |
+| B4 I2V | One 4–6s @ 720p via **consumer Imagine** downloaded |
+| B5 Report | `07_Outputs/IMAGINE_SMOKE_YYYYMMDD.md` with ledger=`supergrok_heavy_weekly` + QC note |
+| B6 API | **Skip** unless Director unlocks after pool exhaustion |
 
 **Exit:** At least one real Imagine clip exists under a non-`sim_` project.  
 **Stop for Director** before scaling take count or opening Episode mode.

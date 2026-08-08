@@ -32,6 +32,7 @@
 2. **Grok-as-camera:** start-frame first; prompt **SUBJECT + CAMERA + HOLD**; multi-take; edit assembles.  
 3. **No identity without refs**; few faces/outfits/locations; short clips (API max 15s).  
 4. **Human Director** = user — final PASS/FAIL, budget, consent, adapter/plugin spend.  
+4b. **Spend:** **SuperGrok Heavy weekly pool first** (consumer Imagine); API credits only after pool/extras exhausted + Director OK — `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`.  
 5. **Binary QC** — no fake native “92/100” consistency scores.  
 6. **Multi-vendor video** (Kling/Veo/Seedance/…) = **adapter tier only**, never default fanout.  
 7. **Marketplace plugins** = research / verify / plan only — **never** replace Imagine or bypass bible/start-frame gates.  
@@ -78,7 +79,7 @@
 - **Grok CLI:** On PATH via `~/.grok/bin`.  
 - **NordVPN:** Caused Warp agent drops when full-tunnel; keep off or split-tunnel Warp.  
 - **`PROJECT_STATUS.md`:** GitHub remote documented as **live** (Phase A fix).  
-- **`08_Projects/`:** production-clean — only `_template` until a real slug is created.  
+- **`08_Projects/`:** `_template` + real slug `smoke_imagine_v1` (Phase B). Sims archived.  
 
 ---
 
@@ -86,9 +87,10 @@
 
 | Item | Priority |
 |------|----------|
-| Live **Imagine still → I2V smoke** (real paid/API pixels) | **P0** before scaling spend |
-| First **real** project slug (not `sim_*`) | **P0/P1** |
-| Commit/push Phase A + optional tag **v1.2.2** | **P1** (Director) |
+| Live **Imagine still → I2V smoke** via **SuperGrok Heavy consumer** (`smoke_imagine_v1`) | **P0** — pack ready; Director runs UI |
+| SuperGrok-first spend law | **Done** — `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md` |
+| Push Phase A/B docs + optional tag **v1.2.2** | **P1** (Director) |
+| API Imagine smoke | **Not default** — only after weekly pool/extras exhausted |
 | R1b Sequence Manager as own seat + Episode activation prompts | **P1** (scale / Phase C) |
 | Advanced plugins (exa, figma, …) under admission control | **P2** after smoke |
 | Fuller Odyssey transcript → knowledge bump | **P3** |
@@ -106,7 +108,7 @@
 | Phase | Name | Intent |
 |-------|------|--------|
 | **A** | Hygiene & handoff | **DONE** — handoff, archive sims, status fixes, PRODUCTION_DEPLOY |
-| **B** | Live pixel proof | One real I2V clip + smoke report |
+| **B** | Live pixel proof | **IN PROGRESS** — consumer SuperGrok Heavy path; pack at `08_Projects/smoke_imagine_v1` |
 | **C** | Scale production team | R1b, Episode/Feature activation, R8 fleet, sequence QC, cost ledger |
 | **D** | Advanced marketplace plugins | Admission control; exa/figma first; verify script updates |
 | **E** | Pilot productions | Real MVP short → Episode slice → parallel R8 stress |

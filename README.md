@@ -67,6 +67,7 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 9. Grok Imagine is default; other models are **adapters**, not requirements.  
 10. Human Director owns final taste and PASS/FAIL.  
 11. Marketplace plugins never replace Imagine or bypass bible/start-frame gates.
+12. **SuperGrok Heavy weekly pool first** — consumer Imagine before API credits (`02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`).
 
 ## Grok toolkit marketplace integration
 

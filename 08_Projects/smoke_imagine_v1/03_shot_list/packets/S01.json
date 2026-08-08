@@ -1,0 +1,19 @@
+{
+  "shot_id": "S01",
+  "project": "smoke_imagine_v1",
+  "mode": "i2v",
+  "duration_target": 6,
+  "aspect": "16:9",
+  "resolution": "720p",
+  "model_preference": "grok-imagine-video-1.5",
+  "surface": "consumer_imagine",
+  "ledger": "supergrok_heavy_weekly",
+  "subject": "Empty corridor and open wooden doorway; dust motes; faint curtain stir; no people",
+  "camera": "Very slow smooth push-in on locked axis; eye-level; no pan/tilt/handheld",
+  "hold": "Quiet magic-hour interior continuity; architecture and lighting locked to start frame",
+  "source_still": "02_refs/start_frames/S01_start_v1.png",
+  "takes_planned": 1,
+  "negative": ["faces", "text", "logos", "handheld", "time-of-day change"],
+  "audio_note": "Soft room tone; gentle air; no dialogue",
+  "status": "ready_for_consumer_gen"
+}

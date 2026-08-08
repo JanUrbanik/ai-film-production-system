@@ -11,6 +11,7 @@
 8. **Short clips + edit**; feature = many PASS shorts.  
 9. **Adapters** only on named failure class + spend OK.  
 9b. **Marketplace plugins** (superpowers/tavily/firecrawl/chrome-devtools) = research/verify/plan only — never replace Imagine camera path.  
+9c. **Spend:** SuperGrok Heavy **weekly pool first** (consumer Imagine); API credits only after pool/extras exhausted + Director OK (`02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`).  
 10. **Label claims** Verified / Assumed / Speculative.  
 11. **Download** temp URLs immediately.  
 12. **Builder 16** governs; does not replace film seats.  
