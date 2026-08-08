@@ -3,7 +3,7 @@
 **Status:** v1.2 production-ready kit (Imagine-first + Grok-as-camera + marketplace plugins)  
 **Date:** 2026-08-08  
 **Deploy:** `05_Workflows/DEPLOYMENT_CHECKLIST.md` · **Status record:** `PROJECT_STATUS.md`  
-**Plugins:** `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md` · `.grok/config.toml`  
+**Plugins:** `02_Tools/plugins/` · `.grok/config.toml` · verify: `./scripts/verify_plugin_stack.sh`  
 **Root:** `/Users/generationalwealth/Desktop/ai-film-production-system`  
 **Relationship:** Separate production factory. Master Builder Team is the optional **governance OS**, not the film runtime.
 

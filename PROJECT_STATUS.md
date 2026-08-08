@@ -26,8 +26,9 @@
 | Activation / kickoff prompts | Final v1.1 | `07_Prompts/` |
 | Master Builder bridge | Final | `09_Bridge/`, Builder KB ENTRY-012 |
 | Source archives | Final for ingested set | `10_Sources/` |
-| Marketplace plugin integration | Final v1.2 | `02_Tools/plugins/GROK_MARKETPLACE_INTEGRATION.md`, `.grok/` |
+| Marketplace plugin integration | Final v1.2+ | `02_Tools/plugins/*`, `.grok/`, `scripts/verify_plugin_stack.sh` |
 | Plugin research branch | Final v1.2 | `05_Workflows/PLUGIN_AUGMENTED_RESEARCH.md` |
+| Plugin E2E verification | PASS 2026-08-08 | `07_Outputs/E2E_PLUGIN_WORKFLOW_TEST_2026-08-08.md` |
 
 ---
 

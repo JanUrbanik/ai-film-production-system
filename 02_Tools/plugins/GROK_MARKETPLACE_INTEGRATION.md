@@ -159,7 +159,11 @@ This factory **mirrors** that stack for production research/verify — it does *
 ```bash
 export PATH="$HOME/.grok/bin:$PATH"
 cd /path/to/ai-film-production-system
+./scripts/verify_plugin_stack.sh
+# equivalent manual:
 grok plugin list
-grok mcp list
 grok mcp doctor
 ```
+
+Snapshot of installs (no secrets): `INSTALLED_STACK.snapshot.json`  
+Last full E2E report: `07_Outputs/E2E_PLUGIN_WORKFLOW_TEST_2026-08-08.md`
