@@ -1,0 +1,41 @@
+{
+  "shot_id": "S01",
+  "sequence": "SEQ1",
+  "mode": "i2v",
+  "model_video": "grok-imagine-video-1.5",
+  "model_image": "grok-imagine-image-quality",
+  "duration_target": 5,
+  "aspect": "16:9",
+  "resolution": "720p",
+  "source_still": "03_shot_list/stills/S01_start_v1.txt",
+  "source_video": null,
+  "reference_images": [
+    {
+      "role": "environment",
+      "path": "02_refs/environments/ROOFTOP/Z1/establish_v1.txt",
+      "tag": "IMAGE_1"
+    }
+  ],
+  "bible_pins": {
+    "character": [],
+    "environment": [
+      "rooftop-v1"
+    ],
+    "props": [],
+    "style": "style-v1"
+  },
+  "prompt": {
+    "identity_block": "",
+    "env_block": "LOCATION LOCK \u2014 city rooftop blue hour: metal railing, HVAC left, amber windows.\nNEGATIVE: location teleport, daylight jump, architecture morph.",
+    "prop_block": "",
+    "camera": "locked-off",
+    "action": "empty rooftop wind on railing",
+    "audio_note": "light wind, distant city hum",
+    "negatives": "whip pan; identity drift; extra limbs",
+    "full_text": "LOCATION LOCK \u2014 city rooftop blue hour: metal railing, HVAC left, amber windows.\nNEGATIVE: location teleport, daylight jump, architecture morph.\n\nFRAMING: wide.\nSUBJECT: wind moves loose cable on railing.\nCAMERA: locked-off, medium speed, stable subject.\nHOLD: match start frame/refs; blue hour rooftop geometry.\nAUDIO: light wind, distant city hum.\n\nSTYLE: cool shadows, amber practicals, photoreal cinematic.\nAVOID: whip pan; identity drift; extra limbs; location morph."
+  },
+  "takes_planned": 4,
+  "adapter": null,
+  "status": "ready",
+  "cost_estimate_usd": 1.6
+}

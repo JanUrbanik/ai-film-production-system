@@ -1,0 +1,6 @@
+shot_id,sequence,beat,location,characters,framing,camera,action,dialogue,duration_target,aspect,resolution,mode,status,subject,hold,speech
+S01,SEQ1,1,ROOFTOP,,wide,locked-off,empty rooftop wind on railing,,5,16:9,720p,i2v,ready,wind moves loose cable on railing,blue hour rooftop geometry,no
+S02,SEQ1,2,ROOFTOP,MAIA:A,medium,slight pan,Maia steps to railing and steadies,,5,16:9,720p,i2v,ready,Maia steps in and grips railing,Maia look_A + rooftop,no
+S03,SEQ1,3,ROOFTOP,MAIA:A,MCU,slow push-in,Maia almost speaks then holds breath,,4,16:9,720p,i2v,ready,breath hold eye flick down,face wardrobe look_A,no
+S04,SEQ1,4,ROOFTOP,MAIA:A,CU,locked-off,Maia delivers locked line,I made it across. That is enough for tonight.,6,16:9,720p,i2v,ready,speak line with pause,face look_A,yes
+S05,SEQ1,5,ROOFTOP,MAIA:A,medium,slow pull-out,lowers phone stays at railing,,5,16:9,720p,i2v,ready,lowers phone stays,look_A rooftop blue hour,no

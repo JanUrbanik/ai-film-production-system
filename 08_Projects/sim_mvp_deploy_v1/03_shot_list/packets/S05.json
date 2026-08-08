@@ -1,0 +1,48 @@
+{
+  "shot_id": "S05",
+  "sequence": "SEQ1",
+  "mode": "i2v",
+  "model_video": "grok-imagine-video-1.5",
+  "model_image": "grok-imagine-image-quality",
+  "duration_target": 5,
+  "aspect": "16:9",
+  "resolution": "720p",
+  "source_still": "03_shot_list/stills/S05_start_v1.txt",
+  "source_video": null,
+  "reference_images": [
+    {
+      "role": "character",
+      "path": "02_refs/characters/MAIA/look_A/master_v1.txt",
+      "tag": "IMAGE_1"
+    },
+    {
+      "role": "environment",
+      "path": "02_refs/environments/ROOFTOP/Z1/establish_v1.txt",
+      "tag": "IMAGE_2"
+    }
+  ],
+  "bible_pins": {
+    "character": [
+      "maia-v1-lookA"
+    ],
+    "environment": [
+      "rooftop-v1"
+    ],
+    "props": [],
+    "style": "style-v1"
+  },
+  "prompt": {
+    "identity_block": "CHARACTER LOCK \u2014 Maia: dark eyes, short black hair, light freckles, late-20s.\nLOOK A: charcoal windbreaker, black gloves, small backpack.\nNEGATIVE: identity drift, face morph, age change, different person.\nREF: match attached reference images exactly.",
+    "env_block": "LOCATION LOCK \u2014 city rooftop blue hour: metal railing, HVAC left, amber windows.\nNEGATIVE: location teleport, daylight jump, architecture morph.",
+    "prop_block": "",
+    "camera": "slow pull-out",
+    "action": "lowers phone stays at railing",
+    "audio_note": "light wind, distant city hum",
+    "negatives": "whip pan; identity drift; extra limbs",
+    "full_text": "CHARACTER LOCK \u2014 Maia: dark eyes, short black hair, light freckles, late-20s.\nLOOK A: charcoal windbreaker, black gloves, small backpack.\nNEGATIVE: identity drift, face morph, age change, different person.\nREF: match attached reference images exactly.\nLOCATION LOCK \u2014 city rooftop blue hour: metal railing, HVAC left, amber windows.\nNEGATIVE: location teleport, daylight jump, architecture morph.\n\nFRAMING: medium.\nSUBJECT: lowers phone stays.\nCAMERA: slow pull-out, medium speed, stable subject.\nHOLD: match start frame/refs; look_A rooftop blue hour.\nAUDIO: light wind, distant city hum.\n\nSTYLE: cool shadows, amber practicals, photoreal cinematic.\nAVOID: whip pan; identity drift; extra limbs; location morph."
+  },
+  "takes_planned": 4,
+  "adapter": null,
+  "status": "ready",
+  "cost_estimate_usd": 1.6
+}
