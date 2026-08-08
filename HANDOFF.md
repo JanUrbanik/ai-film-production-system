@@ -3,8 +3,9 @@
 **For:** New agent chats / Human Director  
 **Updated:** 2026-08-08  
 **Kit version:** **v1.2.1** (tags `v1.2`, `v1.2.1` on `main`)  
-**HEAD (at handoff write):** `7663f7c` — scale roadmap landed  
+**HEAD (at handoff write):** `3891d8c` — HANDOFF.md on main (includes scale roadmap `7663f7c`)  
 **Working tree expectation:** clean `main` == `origin/main` unless noted  
+**Verified pre-send:** 2026-08-08 — all critical paths present; plugin verify 16/16; Phase A archive/PRODUCTION_DEPLOY still open  
 
 ---
 
