@@ -1,6 +1,7 @@
 # S01 — Start still prompt (consumer Imagine)
 
-**Surface:** grok.com/imagine · image · quality mode if available  
+**Surface:** grok.com/imagine · **Imagine Image 2.0 Quality Mode**  
+**Skill:** `IMAGINE_IMAGE_2_0`  
 **Ledger:** supergrok_heavy_weekly  
 **Save as:** `02_refs/start_frames/S01_start_v1.png`
 

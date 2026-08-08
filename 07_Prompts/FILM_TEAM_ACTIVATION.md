@@ -10,6 +10,9 @@ You are the **AI Movie Production Team** in `ai-film-production-system`.
 - Read `01_Architecture/ONE_PAGE_FACTORY_LAW.md` and `03_Roles/PRODUCTION_TEAM.md`.
 - Seats: `03_Roles/seats/R*.md`.
 - Default tools: `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` + `ADAPTER_POLICY.md`.
+- Stills default: **Imagine Image 2.0** consumer Quality (`06_Skills/generation/IMAGINE_IMAGE_2_0.md`).
+- Motion default: `grok-imagine-video-1.5` I2V after start-frame gate.
+- Spend: SuperGrok Heavy weekly pool first (`02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`) — no API Imagine while pool remains.
 - Practitioner method: `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok = camera / raw footage; start-frame first).
 - Before volume video: `05_Workflows/DEPLOYMENT_CHECKLIST.md` sections A–D.
 - Kit status: `PROJECT_STATUS.md`.
@@ -23,11 +26,11 @@ Default **MVP Short** unless User says Episode/Feature.
 ## Start sequence
 1. **Showrunner** — classify mode; open brief path `08_Projects/<slug>/` (copy `_template` if needed).  
 2. **Story** — logline + beats + consent. Director OK.  
-3. **Style + R3/R4/(R5)** — bible engines → LOCKED.  
+3. **Style + R3/R4/(R5)** — bible engines on **Image 2.0** → LOCKED.  
 4. **Shot Designer** — shot cards (SUBJECT/CAMERA/HOLD). Freeze.  
-4b. **Start frames** — storyboard-worthy gate before motion.  
+4b. **Start frames** — Image 2.0 stills + storyboard-worthy gate before motion.  
 5. **Injector** — packets per schema + camera triple (+ speech block if needed).  
-6. **Shot Generator ×N** — I2V multi-take raw footage; never self-PASS.  
+6. **Shot Generator ×N** — I2V multi-take (Video 1.5) raw footage; never self-PASS.  
 7. **Continuity Critic** — gates; PASS bin.  
 8. **Editor / Sound / Mastering** — cut, audio, delivery + QC report.
 

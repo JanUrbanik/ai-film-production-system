@@ -14,4 +14,5 @@
 4. Co-own field alignment with R7.
 5. Every card states SUBJECT + CAMERA + HOLD (`GROK_AS_CAMERA`).
 6. Mark speech shots for performance prompting.
-7. Plan start stills; no hero I2V until storyboard-worthy (`START_FRAME_FIRST`).
+7. Plan start stills on **Image 2.0**; no hero I2V until storyboard-worthy (`START_FRAME_FIRST`, `IMAGINE_IMAGE_2_0`).
+8. Prefer Smart Resize to match card aspect before motion.

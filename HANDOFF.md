@@ -2,10 +2,10 @@
 
 **For:** New agent chats / Human Director  
 **Updated:** 2026-08-08  
-**Kit version:** **v1.2.2** (hygiene on top of tags `v1.2` / `v1.2.1`; tag `v1.2.2` when Director cuts release)  
-**HEAD (at handoff write):** local Phase A hygiene — commit after Director approval  
-**Working tree expectation:** Phase A edits may be uncommitted until Director says commit/push  
-**Verified this session:** 2026-08-08 — plugin verify 16/16 exit 0; sims archived; `PRODUCTION_DEPLOY.md` added  
+**Kit version:** **v1.2.3** (Image 2.0 stills + SuperGrok-first + Phase A; tags `v1.2`/`v1.2.1` on origin; tag when Director cuts)  
+**HEAD (at handoff write):** local commits ahead of origin — push on Director OK  
+**Working tree expectation:** may be dirty mid-session; prefer clean after commits  
+**Verified this session:** 2026-08-08 — plugin verify 16/16; Image 2.0 research + factory wire-up  
 
 ---
 
@@ -28,7 +28,7 @@
 
 ## 2. Hard laws (non-negotiable)
 
-1. **Imagine-first** pixels (`grok-imagine-image*`, `grok-imagine-video-1.5`).  
+1. **Imagine-first** pixels — stills: **Image 2.0** consumer Quality; motion: `grok-imagine-video-1.5`.  
 2. **Grok-as-camera:** start-frame first; prompt **SUBJECT + CAMERA + HOLD**; multi-take; edit assembles.  
 3. **No identity without refs**; few faces/outfits/locations; short clips (API max 15s).  
 4. **Human Director** = user — final PASS/FAIL, budget, consent, adapter/plugin spend.  
@@ -49,7 +49,7 @@
 |------|--------|--------|
 | Constitution / one-page law | Done | `AGENTS.md`, `01_Architecture/ONE_PAGE_FACTORY_LAW.md` |
 | Pipeline | Done | `01_Architecture/CANONICAL_PIPELINE.md` |
-| Imagine matrix + adapters | Done | `02_Tools/GROK_IMAGINE_*`, `ADAPTER_POLICY.md` |
+| Imagine matrix + adapters | Done + Image 2.0 | `02_Tools/GROK_IMAGINE_*`, `IMAGINE_IMAGE_2_0` skill, `ADAPTER_POLICY.md` |
 | Shot packet schema | Done | `02_Tools/schemas/shot_packet.schema.json` |
 | Production seats R1–R12 | Done | `03_Roles/PRODUCTION_TEAM.md`, `seats/` |
 | Bible engines + templates | Done | `04_Bibles/`, `05_Workflows/engines/` |
@@ -89,6 +89,7 @@
 |------|----------|
 | Live **Imagine still → I2V smoke** via **SuperGrok Heavy consumer** (`smoke_imagine_v1`) | **P0** — pack ready; Director runs UI |
 | SuperGrok-first spend law | **Done** — `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md` |
+| **Imagine Image 2.0** stills default | **Done** — matrix/skills/engines; API 2.0 still “coming soon” |
 | Push Phase A/B docs + optional tag **v1.2.2** | **P1** (Director) |
 | API Imagine smoke | **Not default** — only after weekly pool/extras exhausted |
 | R1b Sequence Manager as own seat + Episode activation prompts | **P1** (scale / Phase C) |

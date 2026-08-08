@@ -9,3 +9,7 @@
 
 ## Engine
 `05_Workflows/engines/ENVIRONMENT_BIBLE_ENGINE.md`
+
+## Tools
+- Default plates: **Imagine Image 2.0** Quality + Smart Resize / multi-ref
+- Skill: `IMAGINE_IMAGE_2_0`

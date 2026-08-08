@@ -1,5 +1,21 @@
 # Changelog — AI Film Production System
 
+## [1.2.3] — 2026-08-08
+
+### Added
+- Imagine **Image 2.0** research brief + skills `IMAGINE_IMAGE_2_0`, `WORLD_PACK_IMAGE_2_0`
+- Matrix §2.0 consumer stills stack (wand/seg/BG remove/multi-ref≤5/smart resize/templates)
+- Schema defaults: `model_image=imagine-image-2.0-quality`, `image_surface=consumer_imagine_2.0`
+
+### Changed
+- Default stills path: consumer Image 2.0 Quality (not API quality) under SuperGrok Heavy pool
+- Bible engines, seats R3/R6/R8, start-frame skill, MVP runbook, one-page law
+- Smoke pack stills explicitly Image 2.0 Quality Mode
+- API Image 2.0 marked **coming soon** — no invented model ids
+
+### Notes
+- Motion remains `grok-imagine-video-1.5`; Image 2.0 upgrades stills that feed I2V
+
 ## [1.2.2] — 2026-08-08
 
 ### Added

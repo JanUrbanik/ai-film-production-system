@@ -53,8 +53,8 @@ If weekly pool is exhausted:
 
 | Work | Default surface | Auth | Bills |
 |------|-----------------|------|-------|
-| Bible stills / start frames | `grok.com/imagine` (image) | SuperGrok Heavy login | Weekly pool |
-| I2V / T2V / edit / extend | `grok.com/imagine` (video) | SuperGrok Heavy login | Weekly pool |
+| Bible stills / start frames / still edits | `grok.com/imagine` **Image 2.0 Quality** | SuperGrok Heavy login | Weekly pool |
+| I2V / T2V / edit / extend | `grok.com/imagine` (video 1.5) | SuperGrok Heavy login | Weekly pool |
 | Batch automation / CI / headless | API `api.x.ai` | `XAI_API_KEY` | **API credits only** |
 | Grok Build agents (interactive) | Grok Build account session | Heavy login | Weekly pool (eligible Build) |
 | Grok Build with API key | CLI + key | `XAI_API_KEY` | API ledger |

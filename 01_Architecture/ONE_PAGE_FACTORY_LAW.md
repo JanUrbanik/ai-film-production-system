@@ -5,6 +5,7 @@
 3. **Three bibles + style** lock before cast gen.  
 4. **Inject** packets (schema) — refs + one move + one action.  
 5. **Imagine default** — I2V > R2V > extend > edit > T2V.  
+5a. **Stills default** — consumer **Imagine Image 2.0** Quality (bibles, start frames, still edits); Video **1.5** for motion.  
 5b. **Grok as camera** — start-frame first; prompt SUBJECT + CAMERA + HOLD; multi-take raw footage (`K-PRAC-GROK-CAMERA-001`).  
 6. **Fleet** = N× Shot Generator workers, not 12 brains × 4 models.  
 7. **Critic** binary gates; no native 92/100.  

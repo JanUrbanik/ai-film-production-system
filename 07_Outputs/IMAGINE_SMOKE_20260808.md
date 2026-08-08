@@ -14,6 +14,7 @@
 |-------|--------|
 | SuperGrok Heavy plan | Director-confirmed (~€350 tier) |
 | Consumer surface | `grok.com/imagine` (required) |
+| Image model | **Imagine Image 2.0** Quality Mode |
 | Usage checked | _pending Director_ |
 | API used | **NO** |
 
@@ -22,6 +23,7 @@
 | Field | Value |
 |-------|--------|
 | Prompt | `03_shot_list/STILL_PROMPT.md` |
+| Model | `imagine-image-2.0-quality` (consumer) |
 | File | `02_refs/start_frames/S01_start_v1.*` |
 | On disk | PENDING |
 

@@ -26,5 +26,7 @@
 
 | Step | Mode |
 |------|------|
-| Master / views | image gen + multi-image edit (≤3 refs) |
-| Later motion | I2V from master or R2V with char refs |
+| Master / views | **Consumer Image 2.0** Quality + multi-ref (≤5) / wand / seg (`IMAGINE_IMAGE_2_0`) |
+| World pack | `WORLD_PACK_IMAGE_2_0` with env/props |
+| API overflow only | `grok-imagine-image-quality` multi-edit (≤3) after spend unlock |
+| Later motion | I2V from master or R2V with char refs (Video 1.5) |

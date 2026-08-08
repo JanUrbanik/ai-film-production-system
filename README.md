@@ -1,6 +1,6 @@
 # AI Film Production System
 
-**Status:** v1.2.2 production-ready kit (Imagine-first + Grok-as-camera + marketplace plugins)  
+**Status:** v1.2.3 production-ready kit (Imagine Image 2.0 stills + Video 1.5 + Grok-as-camera + marketplace plugins)  
 **Date:** 2026-08-08  
 **Release:** https://github.com/JanUrbanik/ai-film-production-system/releases  
 **Deploy:** `05_Workflows/PRODUCTION_DEPLOY.md` · `05_Workflows/DEPLOYMENT_CHECKLIST.md` · **Status:** `PROJECT_STATUS.md` · **Changelog:** `CHANGELOG.md`  
@@ -14,8 +14,8 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 
 1. Locked **Character / Environment / Props** bibles  
 2. Shot cards + short-clip generation  
-3. **Grok Imagine** as the default generation path (API + consumer surface)  
-4. **Grok-as-camera** method (start-frame first; SUBJECT + CAMERA + HOLD)  
+3. **Grok Imagine** as the default generation path — **Image 2.0** stills (consumer Quality) + **Video 1.5** motion  
+4. **Grok-as-camera** method (Image 2.0 start-frame first; SUBJECT + CAMERA + HOLD)  
 5. Human QC gates (not fake universal “consistency scores”)  
 6. Edit/audio assembly as where the “movie” appears  
 7. Optional **Grok Build marketplace plugins** for research / verify / plan only  
@@ -179,3 +179,4 @@ Bridge: charter a FULL job in Master Builder → deliver a film project brief �
 | 1.2 | 2026-08-08 | Marketplace plugin stack integrated into factory workflows |
 | 1.2.1 | 2026-08-08 | README marketplace docs; verify script + stack snapshot; release finalize |
 | 1.2.2 | 2026-08-08 | Phase A: archive sims → `11_Archive/`, `PRODUCTION_DEPLOY.md`, status hygiene |
+| 1.2.3 | 2026-08-08 | Imagine Image 2.0 stills default; SuperGrok Heavy spend law; Phase B smoke pack |

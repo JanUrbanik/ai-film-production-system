@@ -36,9 +36,9 @@ Write in `00_brief/`:
 ## 2. Style + bibles (60–120 min)
 
 1. Fill `STYLE_CONTRACT.md` (closed camera vocab).  
-2. Character bible(s) + generate ref packs via Imagine image.  
-3. Environment bible + 2–4 plates.  
-4. Props bible if needed.  
+2. Character bible(s) + ref packs via **Imagine Image 2.0** Quality (`IMAGINE_IMAGE_2_0` / world pack).  
+3. Environment bible + 2–4 plates (Image 2.0; Smart Resize to AR).  
+4. Props bible if needed (Image 2.0).  
 5. Mark bibles **LOCKED**.
 
 **Gate:** No gen without LOCKED character pack.
@@ -53,7 +53,7 @@ Write in `00_brief/`:
 
 ## 3b. Start frames (before motion spend)
 
-1. Generate start stills per hero shot (image quality).  
+1. Generate start stills per hero shot on **Image 2.0** Quality (multi-ref/wand as needed).  
 2. Run storyboard-worthy gate (`06_Skills/generation/START_FRAME_FIRST.md`).  
 3. Do not spend video seconds until stills pass.  
 

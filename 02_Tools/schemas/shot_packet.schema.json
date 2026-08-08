@@ -26,7 +26,13 @@
     },
     "model_image": {
       "type": "string",
-      "default": "grok-imagine-image-quality"
+      "default": "imagine-image-2.0-quality",
+      "description": "Consumer Image 2.0 Quality label by default. API overflow: grok-imagine-image-quality until Image 2.0 API id ships."
+    },
+    "image_surface": {
+      "type": "string",
+      "enum": ["consumer_imagine_2.0", "api_image_quality", "api_image_standard"],
+      "default": "consumer_imagine_2.0"
     },
     "duration_target": { "type": "integer", "minimum": 1, "maximum": 15 },
     "aspect": {

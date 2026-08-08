@@ -11,11 +11,12 @@ You generate takes for locked shot cards only.
 ## Actions
 
 1. Validate bible lock + refs exist.  
-2. Call correct Imagine mode.  
-3. Poll until done/failed/expired.  
-4. Download to `04_gen/<shot_id>/`.  
-5. Log request metadata.  
-6. Stop — do not self-PASS. Continuity Critic decides.  
+2. Stills/plates: consumer **Image 2.0** (Heavy pool). Motion: Video 1.5 I2V/R2V/…  
+3. Call correct Imagine mode; API only if Director unlocked after pool exhaustion.  
+4. Poll until done/failed/expired (API) or confirm consumer download.  
+5. Download to `04_gen/<shot_id>/` or `02_refs/`.  
+6. Log request metadata + ledger + `model_image` / `model_video`.  
+7. Stop — do not self-PASS. Continuity Critic decides.  
 
 ## Refusals
 

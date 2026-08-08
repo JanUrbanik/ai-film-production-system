@@ -1,9 +1,9 @@
 # Project status — AI Film Production System
 
 **Status:** PRODUCTION-READY KIT (docs + seats + Imagine-first + marketplace plugins)  
-**Version:** 1.2.2  
+**Version:** 1.2.3  
 **Date:** 2026-08-08  
-**GitHub release:** `v1.2.1` baseline; hygiene → `v1.2.2` when tagged  
+**GitHub release:** `v1.2.1` on origin; local kit **1.2.3** (tag when Director cuts)  
 **Git:** `main` (see `git log`)  
 **New-chat handoff:** `HANDOFF.md`  
 
@@ -16,7 +16,8 @@
 | Constitution / one-page law | Final for v1.1 | `AGENTS.md`, `01_Architecture/ONE_PAGE_FACTORY_LAW.md` |
 | Canonical pipeline | Final for v1.1 | `01_Architecture/CANONICAL_PIPELINE.md` |
 | Diagram corrections | Final | `01_Architecture/DIAGRAM_CORRECTIONS.md` |
-| Imagine capability matrix | Final as-of 2026-08-06 research | `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` |
+| Imagine capability matrix | Final as-of 2026-08-08 (+ Image 2.0 consumer) | `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` |
+| Imagine Image 2.0 stills path | Final consumer default; API pending | `06_Skills/generation/IMAGINE_IMAGE_2_0.md`, research brief |
 | Adapter policy | Final | `02_Tools/ADAPTER_POLICY.md` |
 | Shot packet schema | Final | `02_Tools/schemas/shot_packet.schema.json` |
 | Production team + seats | Final v1 | `03_Roles/PRODUCTION_TEAM.md`, `03_Roles/seats/` |
@@ -114,6 +115,7 @@ See **`06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md`**: scale producti
 | 1.2 | 2026-08-08 | Grok marketplace expandable plugins wired into factory |
 | 1.2.1 | 2026-08-08 | README marketplace docs; verify script; release finalize |
 | 1.2.2 | 2026-08-08 | Phase A hygiene: archive sims, PRODUCTION_DEPLOY, status/path fixes |
+| 1.2.3 | 2026-08-08 | Imagine Image 2.0 consumer stills default + SuperGrok-first spend + smoke pack |
 
 ---
 

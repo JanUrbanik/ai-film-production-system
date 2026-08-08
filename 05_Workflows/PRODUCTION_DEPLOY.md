@@ -95,7 +95,7 @@ Sign the checklist’s deploy sign-off table when A–G are honestly complete.
 
 **Default stack (Verified kit law):**
 
-1. Image-quality **start still** per hero shot  
+1. **Image 2.0 Quality** start still per hero shot (`IMAGINE_IMAGE_2_0`)  
 2. Storyboard-worthy gate (`06_Skills/generation/START_FRAME_FIRST.md`)  
 3. Packet validate vs `02_Tools/schemas/shot_packet.schema.json`  
 4. Motion: **I2V > R2V > extend > edit > T2V**  

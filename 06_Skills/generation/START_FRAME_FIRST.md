@@ -11,10 +11,11 @@
 
 ```text
 1. Concept + shot list + style template
-2. Generate / lock start still (image quality model or composed plate)
+2. Generate / lock start still via **Imagine Image 2.0** Quality (consumer default)
+   — multi-ref / wand / seg / smart resize as needed (`IMAGINE_IMAGE_2_0`)
 3. GATE: storyboard-worthy? (composition, identity, costume, readable story beat)
-4. If NO → revise still (image edit / regen) — do not burn video seconds
-5. If YES → I2V with motion-only prompt
+4. If NO → revise still on Image 2.0 (prefer wand/seg over full regen) — do not burn video seconds
+5. If YES → I2V with motion-only prompt (Video 1.5)
 6. Multi-take → QC → PASS bin
 ```
 
@@ -33,13 +34,15 @@
 
 Nailing start frames gives the video model a **smaller job**: only animate what must happen.
 
-## Factory API mapping
+## Factory mapping
 
-| Still approved | Call |
+| Still approved | Path |
 |----------------|------|
+| Generate still | Consumer **Image 2.0** Quality (`model_image` log: `imagine-image-2.0-quality`) |
 | Yes | `mode: i2v`, `source_still` set, `grok-imagine-video-1.5` |
 | No still / B-roll only | `t2v` allowed |
 | New staging + identity | `r2v` with refs (still may not be frame 0) |
+| API still overflow | `grok-imagine-image-quality` only after spend unlock; Image 2.0 API TBD |
 
 ## Naming
 

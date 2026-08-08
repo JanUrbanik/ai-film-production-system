@@ -6,6 +6,8 @@
   "aspect": "16:9",
   "resolution": "720p",
   "model_preference": "grok-imagine-video-1.5",
+  "model_image": "imagine-image-2.0-quality",
+  "image_surface": "consumer_imagine_2.0",
   "surface": "consumer_imagine",
   "ledger": "supergrok_heavy_weekly",
   "subject": "Empty corridor and open wooden doorway; dust motes; faint curtain stir; no people",

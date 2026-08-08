@@ -1,7 +1,8 @@
 # Grok Imagine — present capability matrix
 
-**As-of research pass:** 2026-08-06  
+**As-of research pass:** 2026-08-08 (Image 2.0 consumer GA + prior API matrix)  
 **Primary sources (Verified unless noted):**  
+- https://x.ai/news/grok-imagine-image-2 (2026-08-07) — **Imagine Image 2.0**  
 - https://docs.x.ai/developers/model-capabilities/imagine  
 - https://docs.x.ai/developers/model-capabilities/video/generation  
 - https://docs.x.ai/developers/model-capabilities/video/image-to-video  
@@ -10,7 +11,8 @@
 - https://docs.x.ai/developers/model-capabilities/video/extension  
 - https://docs.x.ai/developers/pricing  
 - https://x.ai/api/imagine  
-- https://x.ai/news/grok-imagine-video-1-5 (2026-06-16)
+- https://x.ai/news/grok-imagine-video-1-5 (2026-06-16)  
+- Factory brief: `10_Sources/research/GROK_IMAGINE_IMAGE_2_0_2026-08-08.md`
 
 ## 1. Surfaces
 
@@ -24,14 +26,36 @@ Treat API limits as the **authoritative production contract**. Consumer UI may d
 
 ## 2. Image stack
 
+### 2.0 Consumer — Imagine Image 2.0 (default stills path)
+
+| Capability | Notes | Label |
+|------------|-------|-------|
+| **Imagine Image 2.0** as new **Quality Mode** | GA on `grok.com/imagine` + iOS/Android (2026-08-07) | Verified |
+| Instruction following / typography / layout / preserve inputs | Vendor product claims | Verified (vendor) |
+| **Magic Wand** region edit | Edit pointed region; leave rest | Verified (vendor) |
+| **Segmentation** | Precise area select | Verified (vendor) |
+| **Background removal** | Transparent subject export | Verified (vendor) |
+| **Multi-ref editing** | Up to **5** input images / generation | Verified (vendor) |
+| **Smart Resize** | Any listed AR; model fills frame (not dumb crop) | Verified (vendor) |
+| **Templates** | Photo, product, marketing, design, game, streaming packs | Verified |
+| **Build a world for video** | Char + locations + props, separate gens, one style | Verified (product) |
+| Arena rank (Aug 7, 2026) | #2 T2I + image-edit behind gpt-image-2 (SpaceXAI listing) | Verified (cited) |
+| **API for Image 2.0** | “Coming soon” — **not** in docs model table yet | Verified gap |
+| Spend | SuperGrok Heavy **weekly pool** on consumer | Assumed same surface |
+
+**Factory default stills tool:** consumer **Image 2.0 Quality Mode** (`06_Skills/generation/IMAGINE_IMAGE_2_0.md`).
+
+### 2.1 API image models (overflow / automation only)
+
 | Capability | Model IDs | Limits / notes | Label |
 |------------|-----------|----------------|-------|
 | Text → image | `grok-imagine-image-quality`, `grok-imagine-image` | Up to **10 images/request**; aspect + resolution configurable; marketing: up to **2K** | Verified |
 | Image edit (NL) | same family | Source = URL, base64 data URI, or Files API `file_id` | Verified |
-| Multi-image edit | same family | Up to **3** source images (compose / style transfer / subjects) | Verified |
+| Multi-image edit | same family | Up to **3** source images (API docs) — consumer 2.0 allows **5** | Verified |
 | Pricing (API) | quality / standard | **$0.05** / image quality; **$0.02** / image standard | Verified (pricing page) |
+| Image 2.0 API slug | — | **Not published** as of 2026-08-08; do not invent ids | Verified gap |
 
-**Film-system use:** master stills, multi-view character sheets, env plates, prop sheets, look variants, key art.
+**Film-system use:** master stills, multi-view character sheets, env plates, prop sheets, start frames, look variants, key art — **prefer Image 2.0 consumer** before API quality.
 
 ## 3. Video stack
 
@@ -114,12 +138,17 @@ Useful for human-in-loop speed; not a substitute for project folder discipline i
 
 | Stage | Default Imagine path |
 |-------|----------------------|
-| Bible stills | `grok-imagine-image-quality` (+ multi-image edit for composites) |
+| Bible stills / multi-view | **Consumer Image 2.0** Quality (+ multi-ref ≤5, wand/seg) |
+| Start frames | **Image 2.0** → `START_FRAME_FIRST` gate |
+| Aspect conform still | Image 2.0 **Smart Resize** |
+| API stills (overflow only) | `grok-imagine-image-quality` until 2.0 API ships |
 | Hero plate → motion | **I2V** `grok-imagine-video-1.5`, 4–10s, 720p (1080p when mastering) |
 | Character in new staging | **Reference-to-video** with character/prop refs |
 | Continue action | **Extend** from PASS clip |
-| Wardrobe/prop fix | **Edit** video or regenerate still + I2V |
+| Wardrobe/prop fix | Prefer **still** wand/seg on Image 2.0, re-gate, then I2V; else video edit |
+| World pack pre-video | Image 2.0 “build a world for video” (`WORLD_PACK_IMAGE_2_0`) |
 | Longform | Many short PASS clips → NLE; not one 15s loop forever |
+| Spend | SuperGrok Heavy weekly pool **before** any API (`SPEND_POLICY_SUPERGROK_FIRST.md`) |
 
 ## 8. Security / policy notes
 
@@ -130,9 +159,12 @@ Useful for human-in-loop speed; not a substitute for project folder discipline i
 ## 9. Re-verify checklist (before every major project)
 
 ```text
+[ ] x.ai/news + grok.com/imagine — Image 2.0 still default Quality Mode
+[ ] docs.x.ai — has Image 2.0 API model id shipped? update adapter/schema if yes
 [ ] docs.x.ai video generation page — duration/resolution
-[ ] pricing page — $/image and $/sec
+[ ] pricing page — $/image and $/sec (API ledger only)
 [ ] reference-to-video — ref count behavior in live SDK
 [ ] reference_audios availability in your region/account
 [ ] temporary URL TTL — download automation
+[ ] Settings → Usage — SuperGrok Heavy weekly pool headroom
 ```

@@ -20,13 +20,26 @@ Python: `xai_sdk.Client(api_key=os.environ["XAI_API_KEY"])`
 
 ## Contracts
 
-### Image sample (bible still)
+### Image — consumer default (Image 2.0)
+
+**Preferred production path (no API):**
+
+1. Open `grok.com/imagine` on SuperGrok Heavy → **Quality Mode = Image 2.0**  
+2. Generate / multi-ref (≤5) / Magic Wand / Segmentation / BG remove / Smart Resize  
+3. Download into `02_refs/` or start-frame path  
+4. Skill: `06_Skills/generation/IMAGINE_IMAGE_2_0.md`  
+
+Log `model_image=imagine-image-2.0-quality` (consumer label) until API publishes a slug.
+
+### Image sample API (bible still) — overflow only
+
+Use only after spend-policy unlock. **Image 2.0 API not verified yet** — use quality model:
 
 ```python
 response = client.image.sample(
     prompt=PROMPT,
-    model="grok-imagine-image-quality",
-    # optional: image_url= for edit; multi-image via docs multi-edit path
+    model="grok-imagine-image-quality",  # replace when Image 2.0 API id is published
+    # optional: image_url= for edit; multi-image via docs multi-edit path (API ≤3 refs)
 )
 url = response.url
 # download immediately to project 02_refs/

@@ -13,6 +13,15 @@
 6. **Critic** logo/material/scale.  
 7. **Publish** LOCKED.
 
+## Imagine mapping
+
+| Step | Mode |
+|------|------|
+| Multi-angle / scale-in-hand | **Consumer Image 2.0** Quality + multi-ref |
+| Cutout for boards | Background removal |
+| Local material/logo fix | Magic Wand / Segmentation |
+| Motion | I2V/R2V with prop refs (Video 1.5) |
+
 ## MVP
 
 Skip engine if no hero prop (R5 Standby).

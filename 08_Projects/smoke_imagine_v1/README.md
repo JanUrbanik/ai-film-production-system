@@ -15,7 +15,7 @@ One start still → start-frame gate PASS → one I2V clip (4–6s, 720p) on dis
    - Record % used + weekly reset in `09_qc_log/USAGE_BEFORE.md`
 2. Open **https://grok.com/imagine** (logged into Heavy account)
 3. **Still** — paste prompt from `03_shot_list/STILL_PROMPT.md`  
-   - Prefer highest image quality available in UI  
+   - Use **Imagine Image 2.0** / Quality Mode (not legacy speed-only if picker shows both)  
    - Download → `02_refs/start_frames/S01_start_v1.png` (or .jpg)
 4. **Gate** — fill `03_shot_list/START_FRAME_GATE.md` (PASS required)
 5. **I2V** — upload start frame; paste motion prompt from `03_shot_list/I2V_PROMPT.md`  
