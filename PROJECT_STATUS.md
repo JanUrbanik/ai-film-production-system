@@ -1,8 +1,9 @@
 # Project status — AI Film Production System
 
 **Status:** PRODUCTION-READY KIT (docs + seats + Imagine-first + marketplace plugins)  
-**Version:** 1.2  
+**Version:** 1.2.1  
 **Date:** 2026-08-08  
+**GitHub release:** `v1.2.1` (see repo Releases)  
 **Git:** `main` (see `git log`)
 
 ---
@@ -94,6 +95,7 @@
 | 1.1 | 2026-08-07 | Odyssey Grok-as-camera knowledge + skills + wire-up |
 | 1.1-docs | 2026-08-07 | Deployment checklist + this status finalization |
 | 1.2 | 2026-08-08 | Grok marketplace expandable plugins wired into factory |
+| 1.2.1 | 2026-08-08 | README marketplace docs; verify script; release finalize |
 
 ---
 

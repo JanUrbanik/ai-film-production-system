@@ -1,5 +1,17 @@
 # Changelog — AI Film Production System
 
+## [1.2.1] — 2026-08-08
+
+### Added
+- Full **README** section documenting marketplace integration, verify command, auth notes
+- `scripts/verify_plugin_stack.sh` one-command health check
+- `02_Tools/plugins/INSTALLED_STACK.snapshot.json` + plugins `README.md`
+- Verify artifact `07_Outputs/PLUGIN_STACK_VERIFY_20260808.md`
+
+### Verified
+- `./scripts/verify_plugin_stack.sh` → 16 PASS / 0 FAIL
+- Live tavily search + firecrawl scrape PASS; MCP doctor 4 healthy / 0 failing
+
 ## [1.2] — 2026-08-08
 
 ### Added
