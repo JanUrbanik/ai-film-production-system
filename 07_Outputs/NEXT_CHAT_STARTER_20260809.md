@@ -7,7 +7,7 @@ Continue AI Film Production System — full continuity handoff.
 
 Root: /Users/generationalwealth/Desktop/ai-film-production-system
 Repo: https://github.com/JanUrbanik/ai-film-production-system
-Branch: main @ d2e6f9e (origin/main). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5. Confirm: git log -1 --oneline
+Branch: main @ 758a60b (origin/main). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5. Confirm: git log -1 --oneline
 Sister (governance only): /Users/generationalwealth/Desktop/master-builder-team — do NOT merge film seats into Builder 02_Agents/.
 
 FIRST: git pull origin main
