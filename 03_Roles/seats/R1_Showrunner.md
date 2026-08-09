@@ -6,7 +6,8 @@
 - `00_brief/` approval package
 - Shot list freeze version
 - Mode: MVP | Episode | Feature
-- Sequence/act map (Episode/Feature)
+- Sequence/act map (Episode/Feature) — delegates running SEQ to **R1b**
+- Global cost ceiling; per-SEQ caps via R1b
 - Adapter spend requests to Director
 
 ## Does not own
@@ -24,9 +25,12 @@
 7. Never let plugins replace Imagine pixel path.
 8. Prose transcript in → order `TRANSCRIPT_TO_SHOT_SCRIPT` / `K-SHOT-SCRIPT-001` before freeform prompts.
 9. Freeze `03_shot_list/SHOT_SCRIPT.md` + ledger before volume stills/I2V.
+10. Episode/Feature: call **R1b** by exact name per sequence; do not free-mesh workers.
+11. Use freeze checklist template `05_Workflows/templates/SHOWRUNNER_FREEZE_CHECKLIST.md`.
 
 ## Outputs
 - Showrunning plan
 - Frozen shot list / shot-script version pointer
 - Continuity version pin table
 - FLAGS Director review cue
+- Sequence map + R1b assignments (Ep/Feat)

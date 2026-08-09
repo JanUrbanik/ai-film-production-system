@@ -19,4 +19,6 @@
 10. Ref plates: flat even light, neutral BG (standard §4.3).
 
 ## Fleet
-N instances share this prompt; distinguish as R8-01…R8-N in logs only.
+N instances share this prompt; distinguish as **R8-01…R8-N** in logs (`SHOT_FLEET_OPS`).  
+R1b assigns workers per sequence; one writer per `04_gen/<shot_id>/`.  
+Log costs to `09_qc_log/cost_ledger.csv`.

@@ -5,7 +5,7 @@
 **Kit version:** **v1.2.4** (tag `v1.2.3` on origin for Image 2.0 baseline; 1.2.4 = shot-script standard)  
 **HEAD:** `main` == `origin/main` (release tag **v1.2.3** on `a356bc4`; later docs tips may sit above the tag)  
 **Working tree expectation:** clean unless mid-session edits  
-**Verified:** 2026-08-08 — plugin verify 16/16; Phase A A1–A6 **CLOSED**; next = Phase B smoke  
+**Verified:** 2026-08-09 — Phase A CLOSED; Phase B **BLOCKED** (manual pixels); Phase C **env prepared** (R1b + Episode prompts + validate_packets)  
 
 ---
 
@@ -106,8 +106,8 @@
 |------|----------|
 | Live **Imagine still → I2V smoke** via SuperGrok Heavy + **Image 2.0** (`smoke_imagine_v1`) | **P0** Phase B — **BLOCKED** on manual consumer gens; see `MANUAL_NEXT_STEPS.md` → *assets landed* |
 | API Imagine smoke | **Not default** — only after weekly pool/extras exhausted |
-| R1b Sequence Manager + Episode activation | **P1** Phase C |
-| Advanced plugins (exa, figma, …) | **P2** after smoke |
+| R1b Sequence Manager + Episode activation | **P1** Phase C — **scaffolded** (`R1b_*.md`, `FILM_TEAM_ACTIVATION_EPISODE.md`); dry-run after B |
+| Advanced plugins (exa, figma, …) | **P2** after smoke (+ prefer seats first) |
 | Fuller Odyssey transcript | **P3** |
 | Multi-vendor adapters | **P3** on named failure class only |
 | Image 2.0 **API** model id | Track docs.x.ai — consumer-only for now |
@@ -123,7 +123,7 @@
 |-------|------|--------|
 | **A** | Hygiene & handoff | **CLOSED** on `v1.2.3` |
 | **B** | Live pixel proof | **BLOCKED** — pack + checklist done; Director must run Image 2.0 still + I2V (`MANUAL_NEXT_STEPS.md`) |
-| **C** | Scale production team | R1b, Episode/Feature activation, R8 fleet, sequence QC, cost ledger |
+| **C** | Scale production team | **ENV PREPARED** — R1b seat, Ep/Feat activation, fleet/ledger/validator; exit needs B + dry-run |
 | **D** | Advanced marketplace plugins | Admission control; exa/figma first; verify script updates |
 | **E** | Pilot productions | Real MVP short → Episode slice → parallel R8 stress |
 | **F** | Continuous improvement | Matrix re-verify, adapters, Builder charters as needed |
@@ -209,9 +209,9 @@ Confirm reads in ≤10 bullets, then execute. Stop for approval before paid Imag
 
 ## 9. Immediate recommended next tasks (pick one)
 
-1. **Phase B smoke (P0):** Follow `08_Projects/smoke_imagine_v1/00_brief/MANUAL_NEXT_STEPS.md` (Image 2.0 still → gate → I2V); reply *assets landed*.  
-2. **Phase C start:** Author `R1b_Sequence_Manager.md` + Episode activation prompt (after B).  
-3. **Phase D start:** Director-charter + install **exa** or **figma** only after B.  
+1. **Phase B smoke (P0):** `MANUAL_NEXT_STEPS.md` → still + I2V → *assets landed*.  
+2. **Phase C continue:** Multi-sequence dry-run with R1b + ≥2 R8 + `validate_packets.py` (after B).  
+3. **Phase D:** Director-charter + **exa**/**figma** only after B (prefer after C seats).  
 4. **API path:** only if weekly pool + consumer extras exhausted and Director unlocks.  
 
 ---

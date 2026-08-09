@@ -218,9 +218,10 @@ Adjust to budget; **never skip B before E**.
 - [ ] Imagine smoke note complete (assets on disk — Phase B)  
 
 ### M1 — Team scale v1
-- [ ] R1b seat file + Episode activation  
-- [ ] R8 fleet naming + cost ledger template  
-- [ ] Sequence QC path documented and dry-run  
+- [x] R1b seat file + Episode activation (scaffolded 2026-08-09)  
+- [x] R8 fleet naming + cost ledger template  
+- [x] Sequence QC path documented  
+- [ ] Multi-sequence dry-run with R1b + ≥2 R8  
 
 ### M2 — Advanced plugins v1
 - [ ] Admission control followed for each new plugin  

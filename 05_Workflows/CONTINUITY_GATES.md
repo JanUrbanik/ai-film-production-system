@@ -16,10 +16,21 @@ Use `QC_RUBRICS.md` character/motion/world lists.
 Same look IDs, light family, geography, no wardrobe teleport.
 
 ## Gate 3 — Sequence (Episode/Feature)
-Beat order, geography across scenes, look transitions only if scripted.
+**Owner path:** R1b board + R9 sequence decision (`SEQUENCE_BOARD.md`).
+
+- [ ] All timeline shots in SEQ have ≥1 PASS in `05_pass/` (or seq pass bin)  
+- [ ] Beat order matches frozen sequence purpose  
+- [ ] Geography continuous across scenes in SEQ  
+- [ ] Look / wardrobe transitions only if scripted (ledger WEARING)  
+- [ ] Screen direction / 180° holds across scene joins  
+- [ ] Cost under sequence cap (`cost_ledger.csv`)  
+- [ ] No unresolved FAIL with open repair  
+
+**Binary:** Sequence PASS / FAIL. FAIL → R1b one repair cycle → escalate R1.
 
 ## Gate 4 — Global
-Cast size, style contract, audio cast, Director taste.
+Cast size, style contract, audio cast, Director taste.  
+Feature adds **act gate** between sequence and global (R1 + R9): act goals met, look pins stable.
 
 ## Repair ladder
 1 trim · 2 insert/OTS · 3 video edit · 4 extend · 5 regen · 6 adapter (chartered)

@@ -49,6 +49,7 @@ See `03_Roles/seats/` for prompts:
 | ID | File | Owns |
 |----|------|------|
 | R1 | `R1_Showrunner.md` | Story pin, stages, shot list freeze |
+| R1b | `R1b_Sequence_Manager.md` | Sequence freeze, board, R8 fleet, cost cap (Ep/Feat) |
 | R2 | `R2_Story.md` | Beats, dialogue lock |
 | R3 | `R3_Character_Bible.md` | Char packs + engine |
 | R4 | `R4_Environment_Bible.md` | Env packs + engine |
@@ -62,7 +63,7 @@ See `03_Roles/seats/` for prompts:
 | R12 | `R12_Mastering.md` | Deliverables |
 
 R0 is always the User (no agent file required).  
-R1b Sequence Manager: section inside Showrunner for Episode/Feature.
+R1b is a **callable seat file** for Episode/Feature (not only a Showrunner subsection).
 
 ## Collab graph (film)
 
@@ -70,7 +71,9 @@ R1b Sequence Manager: section inside Showrunner for Episode/Feature.
 | Reviewer | Owner artifact |
 |----------|----------------|
 | R9 Critic | R8 takes |
-| R1 Showrunner | R2 beats; R6 shot list |
+| R9 Critic (sequence tier) | R1b sequence PASS set |
+| R1 Showrunner | R2 beats; R6 shot list; R1b sequence map |
+| R1b Sequence Manager | R6 cards in SEQ; R8 fleet for SEQ |
 | R0 Director | Any PASS → timeline |
 | R9 | R3/R4/R5 locked packs (bible gate) |
 
@@ -79,6 +82,7 @@ R1b Sequence Manager: section inside Showrunner for Episode/Feature.
 |---|---|----------|
 | R7 | R6 | Packet fields align to shot cards |
 | R3–R5 | R7 | Ref paths valid |
+| R1 | R1b | Global vs sequence freezes |
 
 ### Default
 Solo.
@@ -95,4 +99,8 @@ Solo.
 
 ## Activation
 
-Use `07_Prompts/FILM_TEAM_ACTIVATION.md`.
+| Mode | Prompt |
+|------|--------|
+| MVP Short | `07_Prompts/FILM_TEAM_ACTIVATION.md` |
+| Episode | `07_Prompts/FILM_TEAM_ACTIVATION_EPISODE.md` |
+| Feature | `07_Prompts/FILM_TEAM_ACTIVATION_FEATURE.md` |
