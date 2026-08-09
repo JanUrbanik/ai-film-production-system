@@ -2,10 +2,10 @@
 
 **For:** New agent chats / Human Director  
 **Updated:** 2026-08-08  
-**Kit version:** **v1.2.3** (Image 2.0 stills + SuperGrok-first + Phase A; tags `v1.2`/`v1.2.1` on origin; tag when Director cuts)  
-**HEAD (at handoff write):** local commits ahead of origin — push on Director OK  
-**Working tree expectation:** may be dirty mid-session; prefer clean after commits  
-**Verified this session:** 2026-08-08 — plugin verify 16/16; Image 2.0 research + factory wire-up  
+**Kit version:** **v1.2.3** (tags `v1.2`, `v1.2.1`, `v1.2.3` on `origin`)  
+**HEAD (at handoff write):** `a356bc4` — `main` == `origin/main` @ tag `v1.2.3`  
+**Working tree expectation:** clean unless mid-session edits  
+**Verified this session:** 2026-08-08 — plugin verify 16/16 exit 0 after push; Phase A exit complete  
 
 ---
 
@@ -60,8 +60,9 @@
 | Plugin policy + verify script | Done | `02_Tools/plugins/`, `scripts/verify_plugin_stack.sh` |
 | Activation prompts | Done | `07_Prompts/FILM_TEAM_ACTIVATION.md` |
 | Scale roadmap | Done | `06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md` |
-| Handoff + Phase A hygiene | Done this session | `HANDOFF.md`, `11_Archive/`, `PRODUCTION_DEPLOY.md` |
-| Releases | Done | GitHub Releases **v1.2**, **v1.2.1** (v1.2.2 optional tag) |
+| Handoff + Phase A hygiene | **Done** (pushed) | `HANDOFF.md`, `11_Archive/`, `PRODUCTION_DEPLOY.md` |
+| SuperGrok-first + Image 2.0 stills | **Done** | `SPEND_POLICY_*`, `IMAGINE_IMAGE_2_0`, matrix |
+| Releases | **Done** | GitHub **v1.2**, **v1.2.1**, **v1.2.3** |
 
 ### 3.2 Verification already run
 
@@ -85,19 +86,28 @@
 
 ## 4. Open / not done
 
+### Phase A — CLOSED
+
+| Item | Status |
+|------|--------|
+| A1 HANDOFF.md | Done on `main` |
+| A2 Archive sims → `11_Archive/simulations/` | Done; `08_Projects/` = `_template` + real slugs only |
+| A3 PROJECT_STATUS GitHub live | Done |
+| A4 PRODUCTION_DEPLOY.md | Done |
+| A5 .DS_Store / gitignore | Done (ignored; not tracked) |
+| A6 Release tag | **v1.2.3** (supersedes optional v1.2.2 hygiene tag) |
+
+### Still open (post–Phase A)
+
 | Item | Priority |
 |------|----------|
-| Live **Imagine still → I2V smoke** via **SuperGrok Heavy consumer** (`smoke_imagine_v1`) | **P0** — pack ready; Director runs UI |
-| SuperGrok-first spend law | **Done** — `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md` |
-| **Imagine Image 2.0** stills default | **Done** — matrix/skills/engines; API 2.0 still “coming soon” |
-| Push Phase A/B docs + optional tag **v1.2.2** | **P1** (Director) |
+| Live **Imagine still → I2V smoke** via SuperGrok Heavy + **Image 2.0** (`smoke_imagine_v1`) | **P0** Phase B — pack ready; Director runs UI |
 | API Imagine smoke | **Not default** — only after weekly pool/extras exhausted |
-| R1b Sequence Manager as own seat + Episode activation prompts | **P1** (scale / Phase C) |
-| Advanced plugins (exa, figma, …) under admission control | **P2** after smoke |
-| Fuller Odyssey transcript → knowledge bump | **P3** |
-| Multi-vendor adapters | **P3** only on named failure class |
-
-**Phase A closed this session:** sims → `11_Archive/simulations/`; `PRODUCTION_DEPLOY.md`; status/README/checklist path fixes.  
+| R1b Sequence Manager + Episode activation | **P1** Phase C |
+| Advanced plugins (exa, figma, …) | **P2** after smoke |
+| Fuller Odyssey transcript | **P3** |
+| Multi-vendor adapters | **P3** on named failure class only |
+| Image 2.0 **API** model id | Track docs.x.ai — consumer-only for now |
 
 ---
 
@@ -108,8 +118,8 @@
 
 | Phase | Name | Intent |
 |-------|------|--------|
-| **A** | Hygiene & handoff | **DONE** — handoff, archive sims, status fixes, PRODUCTION_DEPLOY |
-| **B** | Live pixel proof | **IN PROGRESS** — consumer SuperGrok Heavy path; pack at `08_Projects/smoke_imagine_v1` |
+| **A** | Hygiene & handoff | **CLOSED** on `v1.2.3` |
+| **B** | Live pixel proof | **NEXT** — SuperGrok Heavy + Image 2.0 still → Video 1.5 I2V; pack `08_Projects/smoke_imagine_v1` |
 | **C** | Scale production team | R1b, Episode/Feature activation, R8 fleet, sequence QC, cost ledger |
 | **D** | Advanced marketplace plugins | Admission control; exa/figma first; verify script updates |
 | **E** | Pilot productions | Real MVP short → Episode slice → parallel R8 stress |
@@ -171,7 +181,7 @@ Continue AI Film Production System.
 
 Root: /Users/generationalwealth/Desktop/ai-film-production-system
 Repo: https://github.com/JanUrbanik/ai-film-production-system
-Branch: main (releases v1.2 / v1.2.1). Kit is production-ready docs+tooling; not a finished film.
+Branch: main (releases v1.2 / v1.2.1 / v1.2.3). Kit is production-ready docs+tooling; not a finished film.
 
 Read FIRST and obey:
 HANDOFF.md
@@ -196,10 +206,10 @@ Confirm reads in ≤10 bullets, then execute. Stop for approval before paid Imag
 
 ## 9. Immediate recommended next tasks (pick one)
 
-1. **Commit Phase A:** Review diff, commit/push, optional tag `v1.2.2`.  
-2. **Phase B:** Run one paid/API Imagine still→I2V smoke; write `07_Outputs/IMAGINE_SMOKE_*.md`.  
-3. **Phase C start:** Author `R1b_Sequence_Manager.md` + Episode activation prompt.  
-4. **Phase D start:** Director-charter + install **exa** or **figma** only after B.  
+1. **Phase B smoke (P0):** SuperGrok Heavy + Image 2.0 still → Video 1.5 I2V per `08_Projects/smoke_imagine_v1/README.md`; reply *assets landed*.  
+2. **Phase C start:** Author `R1b_Sequence_Manager.md` + Episode activation prompt (after B).  
+3. **Phase D start:** Director-charter + install **exa** or **figma** only after B.  
+4. **API path:** only if weekly pool + consumer extras exhausted and Director unlocks.  
 
 ---
 
@@ -208,6 +218,7 @@ Confirm reads in ≤10 bullets, then execute. Stop for approval before paid Imag
 | Ver | Date | Notes |
 |-----|------|-------|
 | 1.0 | 2026-08-08 | Initial handoff for new-chat continuity at kit v1.2.1 + scale roadmap |
-| 1.1 | 2026-08-08 | Phase A complete: archive sims, PRODUCTION_DEPLOY, status hygiene → v1.2.2 |
+| 1.1 | 2026-08-08 | Phase A work + SuperGrok-first + Image 2.0 → v1.2.3 |
+| 1.2 | 2026-08-08 | Phase A formally CLOSED on origin; HANDOFF HEAD/tag accurate |
 
 **Maintainer:** Update this file at the end of each major session (HEAD, open work, blockers).

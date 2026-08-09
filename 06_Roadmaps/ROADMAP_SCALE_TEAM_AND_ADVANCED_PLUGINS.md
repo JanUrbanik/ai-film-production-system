@@ -2,7 +2,7 @@
 
 **Version:** 1.0  
 **Date:** 2026-08-08  
-**Baseline kit:** v1.2.1 (`main`, tags v1.2 / v1.2.1)  
+**Baseline kit:** v1.2.3 (`main`, tags v1.2 / v1.2.1 / v1.2.3) — Phase A closed  
 **Repo:** https://github.com/JanUrbanik/ai-film-production-system  
 **Audience:** New-chat agents + Human Director  
 
@@ -51,20 +51,20 @@ Scale from “single-session MVP kit” → **multi-seat Episode/Feature operati
 
 ## 4. Phased roadmap
 
-### Phase A — Hygiene & handoff (prerequisite, 0.5–1 day)
+### Phase A — Hygiene & handoff — **CLOSED** (v1.2.3)
 
 **Why:** Clean production surface before scaling people/tools.
 
-| # | Work item | Owner seat | Done-when |
-|---|-----------|------------|-----------|
-| A1 | Write root `HANDOFF.md` (state, laws, next actions) | R1 / docs | File on `main` |
-| A2 | Archive `08_Projects/sim_*` → `11_Archive/simulations/` | R1 + exec | Only `_template` active under `08_Projects/` |
-| A3 | Fix stale claims in `PROJECT_STATUS.md` (GitHub is live) | docs | No “local git only” |
-| A4 | Add `05_Workflows/PRODUCTION_DEPLOY.md` | R1/R12 | Go-live checklist for real shoots |
-| A5 | `git clean` `.DS_Store`; tighten gitignore if needed | exec | Clean tree |
-| A6 | Optional tag **v1.2.2** hygiene | Director | Release notes |
+| # | Work item | Status | Evidence |
+|---|-----------|--------|----------|
+| A1 | Root `HANDOFF.md` | **Done** | on `main` |
+| A2 | Archive `sim_*` → `11_Archive/simulations/` | **Done** | `08_Projects/` = `_template` + real slugs (e.g. Phase B smoke) |
+| A3 | Fix `PROJECT_STATUS` GitHub live | **Done** | Repository table |
+| A4 | `PRODUCTION_DEPLOY.md` | **Done** | `05_Workflows/` |
+| A5 | `.DS_Store` / gitignore | **Done** | ignored, not tracked |
+| A6 | Release tag | **Done as v1.2.3** | (optional v1.2.2 skipped; 1.2.3 includes A+Image 2.0) |
 
-**Exit gate A:** New chat can start from `HANDOFF.md` alone; active projects folder is production-clean.
+**Exit gate A:** Met — new chat can start from `HANDOFF.md`; sims archived; tag `v1.2.3` on origin.
 
 ---
 
@@ -214,7 +214,8 @@ Adjust to budget; **never skip B before E**.
 - [x] HANDOFF.md on main  
 - [x] Sims archived  
 - [x] verify_plugin_stack.sh green  
-- [ ] Imagine smoke note exists  
+- [x] Release tag ≥ hygiene (v1.2.3)  
+- [ ] Imagine smoke note complete (assets on disk — Phase B)  
 
 ### M1 — Team scale v1
 - [ ] R1b seat file + Episode activation  

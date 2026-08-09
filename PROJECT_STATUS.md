@@ -3,7 +3,7 @@
 **Status:** PRODUCTION-READY KIT (docs + seats + Imagine-first + marketplace plugins)  
 **Version:** 1.2.3  
 **Date:** 2026-08-08  
-**GitHub release:** `v1.2.1` on origin; local kit **1.2.3** (tag when Director cuts)  
+**GitHub release:** **v1.2.3** (also v1.2, v1.2.1) — https://github.com/JanUrbanik/ai-film-production-system/releases  
 **Git:** `main` (see `git log`)  
 **New-chat handoff:** `HANDOFF.md`  
 
