@@ -103,7 +103,7 @@
 
 | Item | Priority |
 |------|----------|
-| Live **Imagine still → I2V smoke** via SuperGrok Heavy + **Image 2.0** (`smoke_imagine_v1`) | **P0** Phase B — pack ready; Director runs UI |
+| Live **Imagine still → I2V smoke** via SuperGrok Heavy + **Image 2.0** (`smoke_imagine_v1`) | **P0** Phase B — **INITIALIZED** (pack frozen); Director runs UI → *assets landed* |
 | API Imagine smoke | **Not default** — only after weekly pool/extras exhausted |
 | R1b Sequence Manager + Episode activation | **P1** Phase C |
 | Advanced plugins (exa, figma, …) | **P2** after smoke |
@@ -121,7 +121,7 @@
 | Phase | Name | Intent |
 |-------|------|--------|
 | **A** | Hygiene & handoff | **CLOSED** on `v1.2.3` |
-| **B** | Live pixel proof | **NEXT** — SuperGrok Heavy + Image 2.0 still → Video 1.5 I2V; pack `08_Projects/smoke_imagine_v1` |
+| **B** | Live pixel proof | **INITIALIZED** — pack frozen at `smoke_imagine_v1`; awaiting Director still+I2V downloads |
 | **C** | Scale production team | R1b, Episode/Feature activation, R8 fleet, sequence QC, cost ledger |
 | **D** | Advanced marketplace plugins | Admission control; exa/figma first; verify script updates |
 | **E** | Pilot productions | Real MVP short → Episode slice → parallel R8 stress |

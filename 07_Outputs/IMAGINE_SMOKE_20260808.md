@@ -1,8 +1,8 @@
 # Imagine smoke — 2026-08-08
 
-**Status:** IN PROGRESS — waiting on Director consumer Imagine assets  
+**Status:** SUPERSEDED by `IMAGINE_SMOKE_20260809.md` (Phase B pack init)  
 **Project:** `08_Projects/smoke_imagine_v1`  
-**Kit:** v1.2.2+ (Phase A committed `466cf30`)  
+**Kit:** see 20260809 report  
 **Spend policy:** `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`  
 **Ledger:** `supergrok_heavy_weekly` (**not** xAI API)
 

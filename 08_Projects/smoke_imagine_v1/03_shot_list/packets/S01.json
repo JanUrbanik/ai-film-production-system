@@ -1,21 +1,61 @@
 {
   "shot_id": "S01",
+  "sequence": "SCENE_1",
   "project": "smoke_imagine_v1",
   "mode": "i2v",
-  "duration_target": 6,
-  "aspect": "16:9",
-  "resolution": "720p",
-  "model_preference": "grok-imagine-video-1.5",
+  "model_video": "grok-imagine-video-1.5",
   "model_image": "imagine-image-2.0-quality",
   "image_surface": "consumer_imagine_2.0",
-  "surface": "consumer_imagine",
-  "ledger": "supergrok_heavy_weekly",
-  "subject": "Empty corridor and open wooden doorway; dust motes; faint curtain stir; no people",
-  "camera": "Very slow smooth push-in on locked axis; eye-level; no pan/tilt/handheld",
-  "hold": "Quiet magic-hour interior continuity; architecture and lighting locked to start frame",
+  "duration_target": 6,
+  "duration_policy": "standard_8s_cap",
+  "aspect": "16:9",
+  "resolution": "720p",
   "source_still": "02_refs/start_frames/S01_start_v1.png",
+  "source_video": null,
+  "refs": ["LOC_001/DUSK", "LOOK_001"],
+  "reference_images": [
+    {
+      "role": "start_frame",
+      "path": "02_refs/start_frames/S01_start_v1.png",
+      "tag": "FRAME_0"
+    }
+  ],
+  "bible_pins": {
+    "character": [],
+    "environment": ["LOC_001/DUSK"],
+    "props": [],
+    "wardrobe": [],
+    "style": "style_smoke_v1"
+  },
+  "framing": "medium-wide eye-level doorway centered",
+  "lens": "approx 35mm deep focus still",
+  "screen_direction": "slow push-in toward doorway center",
+  "lipsync": false,
+  "dialogue": null,
+  "dialogue_delivery": null,
+  "vo_segment": "NONE",
   "takes_planned": 1,
-  "negative": ["faces", "text", "logos", "handheld", "time-of-day change"],
-  "audio_note": "Soft room tone; gentle air; no dialogue",
-  "status": "ready_for_consumer_gen"
+  "adapter": null,
+  "gen_prompt_lint": "pass",
+  "prompt": {
+    "identity_block": "",
+    "env_block": "empty narrow corridor open dark-wood doorway dusk exterior",
+    "prop_block": "",
+    "camera": "very slow smooth push-in locked axis no pan tilt handheld",
+    "action": "dust motes drift; thin curtain stirs once; no people",
+    "audio_note": "soft room tone gentle air no dialogue",
+    "negatives": "no text, no watermark, no extra people, no distorted hands, no modern anachronisms; no faces; no animals; no handheld; no time-of-day jump",
+    "full_text": "Photoreal cinematic image-to-video from the locked start frame. Same empty narrow corridor and open dark-wood doorway; dust motes drift slowly in a warm light beam; a thin curtain at the door edge stirs once in a faint breeze; exterior dusk light stays consistent. Very slow smooth push-in toward the doorway on a locked axis; no pan, no tilt, no handheld. Quiet atmosphere, soft room tone, gentle air only; continuity with the start frame; do not change architecture, furniture, or time of day. 16:9, 720p, six seconds."
+  },
+  "status": "ready",
+  "cost_estimate_usd": null,
+  "ledger": "supergrok_heavy_weekly",
+  "surface": "consumer_imagine",
+  "phase_b": {
+    "b1_auth": "pending_director",
+    "b2_still": "pending_download",
+    "b3_gate": "pending",
+    "b4_i2v": "pending_download",
+    "b5_report": "07_Outputs/IMAGINE_SMOKE_20260809.md"
+  }
 }

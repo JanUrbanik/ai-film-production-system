@@ -1,0 +1,2 @@
+SHOT,TIME,WEATHER,LOCATION,PRESENT,WEARING,EMOTIONAL_STATE,CARRYING,SCREEN_DIRECTION,NOTES
+S01-001,dusk,clear,LOC_001/DUSK,none,n/a,n/a (no cast),n/a,push-in toward doorway center,Phase B smoke env-only
