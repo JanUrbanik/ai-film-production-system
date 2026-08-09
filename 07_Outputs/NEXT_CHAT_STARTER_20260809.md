@@ -7,7 +7,7 @@ Continue AI Film Production System — full continuity handoff.
 
 Root: /Users/generationalwealth/Desktop/ai-film-production-system
 Repo: https://github.com/JanUrbanik/ai-film-production-system
-Branch: main @ 2cac274 (origin/main). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5.
+Branch: main @ 9165ada (origin/main). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5.
 Sister (governance only): /Users/generationalwealth/Desktop/master-builder-team — do NOT merge film seats into Builder 02_Agents/.
 
 FIRST: git pull origin main
@@ -62,6 +62,7 @@ Studio brief: 01_Architecture/CINEAGENT_STUDIO_PRODUCT_BRIEF.md
 Mockups notes: 10_Sources/ui_mockups/CINEAGENT_STUDIO_MOCKUP_NOTES.md
 
 === RECENT COMMITS (do not lose) ===
+9165ada handoff v2.0 + starter
 2cac274 CineAgent brief + pluggable backends
 c27d550 Phase C env prep
 468017c Phase B blockage + MANUAL_NEXT_STEPS
