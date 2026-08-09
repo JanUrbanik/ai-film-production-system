@@ -90,8 +90,10 @@
 
 ## Remaining Director actions (est. 5–15 min)
 
+**Canonical guide:** `../00_brief/MANUAL_NEXT_STEPS.md` (block IDs BLK-1…7).
+
 1. Fill `09_qc_log/USAGE_BEFORE.md` from Settings → Usage  
-2. Paste clipboard still prompt into Image 2.0 Quality → download to  
+2. Paste still prompt (`STILL_PROMPT.md` or `/tmp/smoke_still_prompt.txt`) into Image 2.0 Quality → download to  
    `02_refs/start_frames/S01_start_v1.png`  
 3. PASS `START_FRAME_GATE.md`  
 4. I2V with `/tmp/smoke_i2v_prompt.txt` or `I2V_PROMPT.md` →  

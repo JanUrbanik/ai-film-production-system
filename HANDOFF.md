@@ -82,7 +82,8 @@
 - **Grok CLI:** On PATH via `~/.grok/bin`.  
 - **NordVPN:** Caused Warp agent drops when full-tunnel; keep off or split-tunnel Warp.  
 - **`PROJECT_STATUS.md`:** GitHub remote documented as **live** (Phase A fix).  
-- **`08_Projects/`:** `_template` + real slug `smoke_imagine_v1` (Phase B). Sims archived.  
+- **`08_Projects/`:** `_template` + real slug `smoke_imagine_v1` (Phase B **blocked** on consumer UI pixels). Sims archived.  
+- **Phase B smoke:** Agent cannot headless-gen Imagine; SuperGrok Heavy consumer required. API key in env may 403 — do not use for smoke. Manual path: `08_Projects/smoke_imagine_v1/00_brief/MANUAL_NEXT_STEPS.md`.  
 
 ---
 
@@ -103,7 +104,7 @@
 
 | Item | Priority |
 |------|----------|
-| Live **Imagine still → I2V smoke** via SuperGrok Heavy + **Image 2.0** (`smoke_imagine_v1`) | **P0** Phase B — **INITIALIZED** (pack frozen); Director runs UI → *assets landed* |
+| Live **Imagine still → I2V smoke** via SuperGrok Heavy + **Image 2.0** (`smoke_imagine_v1`) | **P0** Phase B — **BLOCKED** on manual consumer gens; see `MANUAL_NEXT_STEPS.md` → *assets landed* |
 | API Imagine smoke | **Not default** — only after weekly pool/extras exhausted |
 | R1b Sequence Manager + Episode activation | **P1** Phase C |
 | Advanced plugins (exa, figma, …) | **P2** after smoke |
@@ -121,7 +122,7 @@
 | Phase | Name | Intent |
 |-------|------|--------|
 | **A** | Hygiene & handoff | **CLOSED** on `v1.2.3` |
-| **B** | Live pixel proof | **INITIALIZED** — pack frozen at `smoke_imagine_v1`; awaiting Director still+I2V downloads |
+| **B** | Live pixel proof | **BLOCKED** — pack + checklist done; Director must run Image 2.0 still + I2V (`MANUAL_NEXT_STEPS.md`) |
 | **C** | Scale production team | R1b, Episode/Feature activation, R8 fleet, sequence QC, cost ledger |
 | **D** | Advanced marketplace plugins | Admission control; exa/figma first; verify script updates |
 | **E** | Pilot productions | Real MVP short → Episode slice → parallel R8 stress |
@@ -208,7 +209,7 @@ Confirm reads in ≤10 bullets, then execute. Stop for approval before paid Imag
 
 ## 9. Immediate recommended next tasks (pick one)
 
-1. **Phase B smoke (P0):** SuperGrok Heavy + Image 2.0 still → Video 1.5 I2V per `08_Projects/smoke_imagine_v1/README.md`; reply *assets landed*.  
+1. **Phase B smoke (P0):** Follow `08_Projects/smoke_imagine_v1/00_brief/MANUAL_NEXT_STEPS.md` (Image 2.0 still → gate → I2V); reply *assets landed*.  
 2. **Phase C start:** Author `R1b_Sequence_Manager.md` + Episode activation prompt (after B).  
 3. **Phase D start:** Director-charter + install **exa** or **figma** only after B.  
 4. **API path:** only if weekly pool + consumer extras exhausted and Director unlocks.  
