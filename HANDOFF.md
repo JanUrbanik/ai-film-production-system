@@ -3,9 +3,9 @@
 **For:** New agent chats / Human Director  
 **Updated:** 2026-08-08  
 **Kit version:** **v1.2.3** (tags `v1.2`, `v1.2.1`, `v1.2.3` on `origin`)  
-**HEAD (at handoff write):** `a356bc4` — `main` == `origin/main` @ tag `v1.2.3`  
+**HEAD (at handoff write):** `cbbe9db` — `main` == `origin/main` (tag `v1.2.3` on Image 2.0 commit `a356bc4`)  
 **Working tree expectation:** clean unless mid-session edits  
-**Verified this session:** 2026-08-08 — plugin verify 16/16 exit 0 after push; Phase A exit complete  
+**Verified this session:** 2026-08-08 — plugin verify 16/16; Phase A A1–A6 CLOSED; next = Phase B smoke  
 
 ---
 
