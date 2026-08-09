@@ -7,7 +7,7 @@ Continue AI Film Production System — full continuity handoff.
 
 Root: /Users/generationalwealth/Desktop/ai-film-production-system
 Repo: https://github.com/JanUrbanik/ai-film-production-system
-Branch: main @ 758a60b (origin/main). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5. Confirm: git log -1 --oneline
+Branch: main (origin/main). After pull: `git log -1 --oneline` (tip was 31757c5 at handoff write). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5.
 Sister (governance only): /Users/generationalwealth/Desktop/master-builder-team — do NOT merge film seats into Builder 02_Agents/.
 
 FIRST: git pull origin main
@@ -62,6 +62,8 @@ Studio brief: 01_Architecture/CINEAGENT_STUDIO_PRODUCT_BRIEF.md
 Mockups notes: 10_Sources/ui_mockups/CINEAGENT_STUDIO_MOCKUP_NOTES.md
 
 === RECENT COMMITS (do not lose) ===
+31757c5 docs: final SHA sync for handoff transfer
+758a60b docs: sync HANDOFF and next-chat starter to tip; embed recent log
 d2e6f9e docs: align starter and HANDOFF to final tip SHA
 0bad770 docs: finalize HANDOFF HEAD pin for GitHub push
 16512bc docs: pin HANDOFF HEAD hash after continuity commit
@@ -74,6 +76,7 @@ c27d550 feat(phase-c): prepare scale-team environment after smoke gate
 410e2a7 feat(knowledge): ingest transcript-to-shot-script standard K-SHOT-SCRIPT-001
 8144826 docs: stabilize HANDOFF HEAD note after Phase A close
 9680140 docs: set HANDOFF HEAD to Phase A close tip
+cbbe9db docs: close Phase A on v1.2.3 in HANDOFF and roadmap
 
 === VERIFY ON START ===
 export PATH="$HOME/.grok/bin:$PATH"

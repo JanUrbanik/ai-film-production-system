@@ -4,7 +4,7 @@
 **Updated:** 2026-08-09  
 **Kit version (docs):** **v1.2.5** (content on `main` after tag `v1.2.3`)  
 **Git tags on origin:** `v1.2`, `v1.2.1`, `v1.2.3`  
-**HEAD:** `d2e6f9e` — run `git pull && git log -1 --oneline` to confirm tip
+**HEAD (at write):** `31757c5` — after pull run `git log -1 --oneline` (trust git over this line if they differ by a pin commit)
 **Working tree expectation:** clean after push  
 **Sister engine:** `/Users/generationalwealth/Desktop/master-builder-team` (governance only — do **not** merge film seats into Builder `02_Agents/`)
 
