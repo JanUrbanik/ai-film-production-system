@@ -7,7 +7,7 @@ Continue AI Film Production System — full continuity handoff.
 
 Root: /Users/generationalwealth/Desktop/ai-film-production-system
 Repo: https://github.com/JanUrbanik/ai-film-production-system
-Branch: main @ 0bad770 (origin/main). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5.
+Branch: main @ d2e6f9e (origin/main). Tags: v1.2, v1.2.1, v1.2.3. Docs kit ~v1.2.5. Confirm: git log -1 --oneline
 Sister (governance only): /Users/generationalwealth/Desktop/master-builder-team — do NOT merge film seats into Builder 02_Agents/.
 
 FIRST: git pull origin main
@@ -62,16 +62,18 @@ Studio brief: 01_Architecture/CINEAGENT_STUDIO_PRODUCT_BRIEF.md
 Mockups notes: 10_Sources/ui_mockups/CINEAGENT_STUDIO_MOCKUP_NOTES.md
 
 === RECENT COMMITS (do not lose) ===
-9165ada handoff v2.0 + starter
-2cac274 CineAgent brief + pluggable backends
-c27d550 Phase C env prep
-468017c Phase B blockage + MANUAL_NEXT_STEPS
-101bd13 checklist execution blocked on UI
-4dfa110 smoke pack init
-410e2a7 K-SHOT-SCRIPT-001
-a356bc4 v1.2.3 Image 2.0 stills default
-4dff04f SuperGrok-first spend
-466cf30 Phase A archive + PRODUCTION_DEPLOY
+d2e6f9e docs: align starter and HANDOFF to final tip SHA
+0bad770 docs: finalize HANDOFF HEAD pin for GitHub push
+16512bc docs: pin HANDOFF HEAD hash after continuity commit
+9165ada docs: full continuity HANDOFF v2.0 + next-chat starter for context transfer
+2cac274 docs: pluggable gen backends + CineAgent Studio product brief
+c27d550 feat(phase-c): prepare scale-team environment after smoke gate
+468017c docs(phase-b): document smoke blockages and manual next steps
+101bd13 docs(phase-b): record operator checklist execution — blocked on consumer UI
+4dfa110 feat(phase-b): initialize smoke_imagine_v1 pack for SuperGrok Heavy
+410e2a7 feat(knowledge): ingest transcript-to-shot-script standard K-SHOT-SCRIPT-001
+8144826 docs: stabilize HANDOFF HEAD note after Phase A close
+9680140 docs: set HANDOFF HEAD to Phase A close tip
 
 === VERIFY ON START ===
 export PATH="$HOME/.grok/bin:$PATH"
