@@ -6,7 +6,7 @@ Produce short-to-long AI narrative video with locked bibles, Grok Imagine genera
 
 ## Non-negotiables
 
-1. **Imagine-first** default (`02_Tools/`) — stills **Image 2.0** consumer; motion Video 1.5.  
+1. **Imagine-first** default (`02_Tools/`) — stills default **Image 2.0** consumer; motion default Video **1.5**; both are **options** in a pluggable backend registry (not exclusive locks).  
 2. **Claim labels** on capabilities (`00_Epistemics/`).  
 3. **Human Director** final taste.  
 4. **No identity without refs.**  

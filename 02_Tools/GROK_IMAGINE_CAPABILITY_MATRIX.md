@@ -43,7 +43,8 @@ Treat API limits as the **authoritative production contract**. Consumer UI may d
 | **API for Image 2.0** | “Coming soon” — **not** in docs model table yet | Verified gap |
 | Spend | SuperGrok Heavy **weekly pool** on consumer | Assumed same surface |
 
-**Factory default stills tool:** consumer **Image 2.0 Quality Mode** (`06_Skills/generation/IMAGINE_IMAGE_2_0.md`).
+**Factory default stills tool:** consumer **Image 2.0 Quality Mode** (`06_Skills/generation/IMAGINE_IMAGE_2_0.md`) — **preferred default, not sole backend** (`GENERATION_BACKEND_POLICY.md`).  
+**Image 2.0 is not a video model.**
 
 ### 2.1 API image models (overflow / automation only)
 

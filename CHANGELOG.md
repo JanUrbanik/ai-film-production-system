@@ -1,5 +1,17 @@
 # Changelog — AI Film Production System
 
+## [1.2.5] — 2026-08-09
+
+### Added
+- `02_Tools/GENERATION_BACKEND_POLICY.md` — Image 2.0 = stills default only; video backends pluggable
+- `01_Architecture/CINEAGENT_STUDIO_PRODUCT_BRIEF.md` — UI shell over this factory for Grok Build
+- `10_Sources/ui_mockups/CINEAGENT_STUDIO_MOCKUP_NOTES.md` — mockup→factory map + 92/100 warning
+
+### Clarified
+- Image 2.0 is **not** locked as main video generator
+- Studio must expose still/video backend pickers; no silent multi-vendor fanout
+- Continuity UI scores = Assumed heuristics; binary QC remains law
+
 ## [1.2.4] — 2026-08-09
 
 ### Added

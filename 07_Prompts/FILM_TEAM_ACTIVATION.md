@@ -10,8 +10,8 @@ You are the **AI Movie Production Team** in `ai-film-production-system`.
 - Read `01_Architecture/ONE_PAGE_FACTORY_LAW.md` and `03_Roles/PRODUCTION_TEAM.md`.
 - Seats: `03_Roles/seats/R*.md`.
 - Default tools: `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` + `ADAPTER_POLICY.md`.
-- Stills default: **Imagine Image 2.0** consumer Quality (`06_Skills/generation/IMAGINE_IMAGE_2_0.md`).
-- Motion default: `grok-imagine-video-1.5` I2V after start-frame gate.
+- Stills **default** (not exclusive): **Imagine Image 2.0** consumer Quality (`IMAGINE_IMAGE_2_0`) — not a video model.
+- Motion **default** (not exclusive): `grok-imagine-video-1.5` I2V after start-frame gate; other backends per `GENERATION_BACKEND_POLICY.md`.
 - Spend: SuperGrok Heavy weekly pool first (`02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`) — no API Imagine while pool remains.
 - Practitioner method: `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` (Grok = camera / raw footage; start-frame first).
 - Prose → production: **`K-SHOT-SCRIPT-001`** (`03_Knowledge/TRANSCRIPT_TO_SHOT_SCRIPT.md`, skill `TRANSCRIPT_TO_SHOT_SCRIPT`) — REFS vs GEN_PROMPT split mandatory.

@@ -1,7 +1,7 @@
 # Project status — AI Film Production System
 
 **Status:** PRODUCTION-READY KIT (docs + seats + Imagine-first + marketplace plugins)  
-**Version:** 1.2.4  
+**Version:** 1.2.5  
 **Date:** 2026-08-08  
 **GitHub release:** **v1.2.3** (also v1.2, v1.2.1) — https://github.com/JanUrbanik/ai-film-production-system/releases  
 **Git:** `main` (see `git log`)  
@@ -118,6 +118,7 @@ See **`06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md`**: scale producti
 | 1.2.2 | 2026-08-08 | Phase A hygiene: archive sims, PRODUCTION_DEPLOY, status/path fixes |
 | 1.2.3 | 2026-08-08 | Imagine Image 2.0 consumer stills default + SuperGrok-first spend + smoke pack |
 | 1.2.4 | 2026-08-09 | Transcript-to-shot-script standard (K-SHOT-SCRIPT-001) wired end-to-end |
+| 1.2.5 | 2026-08-09 | Pluggable gen backends + CineAgent Studio product brief |
 
 ---
 

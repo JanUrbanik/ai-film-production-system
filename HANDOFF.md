@@ -28,7 +28,7 @@
 
 ## 2. Hard laws (non-negotiable)
 
-1. **Imagine-first** pixels — stills: **Image 2.0** consumer Quality; motion: `grok-imagine-video-1.5`.  
+1. **Imagine-first** pixels — stills **default** Image 2.0 consumer; motion **default** Video 1.5; both pluggable (`GENERATION_BACKEND_POLICY.md`). Image 2.0 ≠ video.  
 2. **Grok-as-camera:** start-frame first; prompt **SUBJECT + CAMERA + HOLD**; multi-take; edit assembles.  
 2b. **Transcript→shot-script:** `K-SHOT-SCRIPT-001` — four artifacts; REFS ≠ GEN_PROMPT; no IDs in model string.  
 3. **No identity without refs**; few faces/outfits/locations; short clips (API max 15s).  
@@ -63,7 +63,8 @@
 | Activation prompts | Done | `07_Prompts/FILM_TEAM_ACTIVATION.md` |
 | Scale roadmap | Done | `06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md` |
 | Handoff + Phase A hygiene | **Done** (pushed) | `HANDOFF.md`, `11_Archive/`, `PRODUCTION_DEPLOY.md` |
-| SuperGrok-first + Image 2.0 stills | **Done** | `SPEND_POLICY_*`, `IMAGINE_IMAGE_2_0`, matrix |
+| SuperGrok-first + Image 2.0 stills default | **Done** | `SPEND_POLICY_*`, `IMAGINE_IMAGE_2_0`, matrix |
+| Pluggable gen backends + CineAgent Studio brief | **Done** | `GENERATION_BACKEND_POLICY.md`, `CINEAGENT_STUDIO_PRODUCT_BRIEF.md` |
 | Releases | **Done** | GitHub **v1.2**, **v1.2.1**, **v1.2.3** |
 
 ### 3.2 Verification already run

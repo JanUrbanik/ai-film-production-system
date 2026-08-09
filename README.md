@@ -14,8 +14,8 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 
 1. Locked **Character / Environment / Props** bibles  
 2. Shot cards + short-clip generation  
-3. **Grok Imagine** as the default generation path — **Image 2.0** stills (consumer Quality) + **Video 1.5** motion  
-4. **Grok-as-camera** method (Image 2.0 start-frame first; SUBJECT + CAMERA + HOLD)  
+3. **Grok Imagine** as the **default** generation path — Image 2.0 stills + Video 1.5 motion (**pluggable**; not exclusive)  
+4. **Grok-as-camera** method (start-frame first; SUBJECT + CAMERA + HOLD)  
 5. Human QC gates (not fake universal “consistency scores”)  
 6. Edit/audio assembly as where the “movie” appears  
 7. Optional **Grok Build marketplace plugins** for research / verify / plan only  
@@ -36,6 +36,8 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 | 2 | `05_Workflows/PRODUCTION_DEPLOY.md` | Go-live for real shoots |
 | 2b | `05_Workflows/DEPLOYMENT_CHECKLIST.md` | Ship gate A–H |
 | 3 | `01_Architecture/ONE_PAGE_FACTORY_LAW.md` | Printable law |
+| 3b | `01_Architecture/CINEAGENT_STUDIO_PRODUCT_BRIEF.md` | Future UI shell (Grok Build) |
+| 3c | `02_Tools/GENERATION_BACKEND_POLICY.md` | Pluggable still/video backends |
 | 4 | `03_Roles/PRODUCTION_TEAM.md` + `seats/` | Callable film team |
 | 5 | `07_Prompts/FILM_TEAM_ACTIVATION.md` | Start a production session |
 | 6 | `02_Tools/GROK_IMAGINE_CAPABILITY_MATRIX.md` | Imagine truth |
