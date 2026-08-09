@@ -13,6 +13,7 @@ Produce short-to-long AI narrative video with locked bibles, Grok Imagine genera
 5. **Short clips + edit**, not one-shot features.  
 6. **Separate from Master Builder seats** — bridge only.  
 7. **SuperGrok Heavy weekly pool first** — consumer Imagine before any `XAI_API_KEY` spend (`02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`).  
+8. **Prose → shot script standard** — Asset Bible + ledger + shot script + flags; REFS never in GEN_PROMPT (`K-SHOT-SCRIPT-001`).  
 
 ## Runtime preference
 

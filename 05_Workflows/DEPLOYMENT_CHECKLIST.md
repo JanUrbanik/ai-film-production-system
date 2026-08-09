@@ -35,7 +35,7 @@ Use this before the first real production run and again before any paid gen camp
 - [ ] Load `07_Prompts/FILM_TEAM_ACTIVATION.md` into the agent/session
 - [ ] Confirm activation references practitioner method (Grok = camera / start-frame first)
 - [ ] Skills resolvable:  
-  `IMAGINE_IMAGE_2_0` · `WORLD_PACK_IMAGE_2_0` · `GROK_AS_CAMERA` · `START_FRAME_FIRST` · `SPEECH_PERFORMANCE_PROMPT` · `I2V_PLATE_LOCK` · `SHOT_FLEET_OPS`
+  `TRANSCRIPT_TO_SHOT_SCRIPT` · `IMAGINE_IMAGE_2_0` · `WORLD_PACK_IMAGE_2_0` · `GROK_AS_CAMERA` · `START_FRAME_FIRST` · `SPEECH_PERFORMANCE_PROMPT` · `I2V_PLATE_LOCK` · `SHOT_FLEET_OPS`
 - [ ] Adapter policy understood: Imagine default; no multi-vendor fanout unless Director approves a named failure class
 - [ ] Claim labels required: Verified / Assumed / Speculative
 

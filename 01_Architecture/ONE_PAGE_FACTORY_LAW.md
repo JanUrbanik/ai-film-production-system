@@ -7,6 +7,7 @@
 5. **Imagine default** — I2V > R2V > extend > edit > T2V.  
 5a. **Stills default** — consumer **Imagine Image 2.0** Quality (bibles, start frames, still edits); Video **1.5** for motion.  
 5b. **Grok as camera** — start-frame first; prompt SUBJECT + CAMERA + HOLD; multi-take raw footage (`K-PRAC-GROK-CAMERA-001`).  
+5c. **Prose → shots** — Asset Bible + Continuity Ledger + Shot Script + Flags; REFS≠GEN_PROMPT; no IDs in model string (`K-SHOT-SCRIPT-001`).  
 6. **Fleet** = N× Shot Generator workers, not 12 brains × 4 models.  
 7. **Critic** binary gates; no native 92/100.  
 8. **Short clips + edit**; feature = many PASS shorts.  

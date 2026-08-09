@@ -17,6 +17,8 @@
 
 ## 1. Story lock (30–60 min)
 
+**If starting from prose:** run `05_Workflows/TRANSCRIPT_TO_SHOT_SCRIPT.md` first (four artifacts), then continue.
+
 Constraints:
 
 - 1 location  

@@ -1,5 +1,22 @@
 # Changelog — AI Film Production System
 
+## [1.2.4] — 2026-08-09
+
+### Added
+- **K-SHOT-SCRIPT-001** Transcript-to-Shot-Script Conversion Standard (full source + knowledge brief)
+- Skill `TRANSCRIPT_TO_SHOT_SCRIPT` + workflow `05_Workflows/TRANSCRIPT_TO_SHOT_SCRIPT.md`
+- Templates: Asset Bible, Continuity Ledger, Shot Script, Flags; `WARDROBE_BIBLE.md`
+- Schema fields: `refs`, `screen_direction`, `lipsync`, `vo_segment`, `gen_prompt_lint`, `wardrobe` pins, 8s policy
+- Project template: `TRANSCRIPT.md`, wardrobe refs, ledger CSV starter
+
+### Changed
+- Injection engine + PROMPT_PACKET: GEN_PROMPT-only model strings; ID lint
+- Seats R1–R3, R6–R9 + activation: conversion path mandatory for prose
+- One-page law §5c; AGENTS non-negotiable #8
+
+### Notes
+- Agents expand prose via four artifacts before Imagine volume; REFS never reach the model
+
 ## [1.2.3] — 2026-08-08
 
 ### Added

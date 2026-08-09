@@ -35,6 +35,30 @@
       "default": "consumer_imagine_2.0"
     },
     "duration_target": { "type": "integer", "minimum": 1, "maximum": 15 },
+    "duration_policy": {
+      "type": "string",
+      "enum": ["standard_8s_cap", "api_max_15s"],
+      "default": "standard_8s_cap",
+      "description": "K-SHOT-SCRIPT-001 conversion path prefers ≤8s; api_max_15s only if Director overrides."
+    },
+    "refs": {
+      "type": "array",
+      "description": "Pipeline REFS IDs e.g. CHAR_001, LOC_002/DUSK — never embedded in prompt.full_text",
+      "items": { "type": "string" }
+    },
+    "screen_direction": { "type": ["string", "null"] },
+    "lipsync": { "type": "boolean", "default": false },
+    "dialogue": { "type": ["string", "null"] },
+    "dialogue_delivery": { "type": ["string", "null"] },
+    "vo_segment": { "type": ["string", "null"] },
+    "framing": { "type": ["string", "null"] },
+    "lens": { "type": ["string", "null"] },
+    "gen_prompt_lint": {
+      "type": "string",
+      "enum": ["pass", "fail", "unchecked"],
+      "default": "unchecked",
+      "description": "fail if full_text contains brackets or TYPE_ID tokens"
+    },
     "aspect": {
       "type": "string",
       "enum": ["1:1", "16:9", "9:16", "4:3", "3:4", "3:2", "2:3"]
@@ -61,14 +85,16 @@
         "character": { "type": "array", "items": { "type": "string" } },
         "environment": { "type": "array", "items": { "type": "string" } },
         "props": { "type": "array", "items": { "type": "string" } },
+        "wardrobe": { "type": "array", "items": { "type": "string" } },
         "style": { "type": "string" }
       }
     },
     "prompt": {
       "type": "object",
       "required": ["full_text"],
+      "description": "full_text MUST equal shot-script GEN_PROMPT: natural language only, zero pipeline IDs",
       "properties": {
-        "identity_block": { "type": "string" },
+        "identity_block": { "type": "string", "description": "Optional assembly aid; strip IDs before merge into full_text" },
         "env_block": { "type": "string" },
         "prop_block": { "type": "string" },
         "camera": { "type": "string" },

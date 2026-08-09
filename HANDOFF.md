@@ -2,7 +2,7 @@
 
 **For:** New agent chats / Human Director  
 **Updated:** 2026-08-08  
-**Kit version:** **v1.2.3** (tags `v1.2`, `v1.2.1`, `v1.2.3` on `origin`)  
+**Kit version:** **v1.2.4** (tag `v1.2.3` on origin for Image 2.0 baseline; 1.2.4 = shot-script standard)  
 **HEAD:** `main` == `origin/main` (release tag **v1.2.3** on `a356bc4`; later docs tips may sit above the tag)  
 **Working tree expectation:** clean unless mid-session edits  
 **Verified:** 2026-08-08 — plugin verify 16/16; Phase A A1–A6 **CLOSED**; next = Phase B smoke  
@@ -30,6 +30,7 @@
 
 1. **Imagine-first** pixels — stills: **Image 2.0** consumer Quality; motion: `grok-imagine-video-1.5`.  
 2. **Grok-as-camera:** start-frame first; prompt **SUBJECT + CAMERA + HOLD**; multi-take; edit assembles.  
+2b. **Transcript→shot-script:** `K-SHOT-SCRIPT-001` — four artifacts; REFS ≠ GEN_PROMPT; no IDs in model string.  
 3. **No identity without refs**; few faces/outfits/locations; short clips (API max 15s).  
 4. **Human Director** = user — final PASS/FAIL, budget, consent, adapter/plugin spend.  
 4b. **Spend:** **SuperGrok Heavy weekly pool first** (consumer Imagine); API credits only after pool/extras exhausted + Director OK — `02_Tools/SPEND_POLICY_SUPERGROK_FIRST.md`.  
@@ -56,6 +57,7 @@
 | MVP / feature / QC / injection | Done | `05_Workflows/*` |
 | Deploy checklist | Done | `05_Workflows/DEPLOYMENT_CHECKLIST.md` |
 | Grok-as-camera knowledge + skills | Done | `03_Knowledge/`, `06_Skills/generation/` |
+| Transcript→shot-script standard | Done | `K-SHOT-SCRIPT-001`, `10_Sources/standards/`, workflow + skill |
 | Marketplace core plugins | Done | superpowers, firecrawl, tavily, chrome-devtools |
 | Plugin policy + verify script | Done | `02_Tools/plugins/`, `scripts/verify_plugin_stack.sh` |
 | Activation prompts | Done | `07_Prompts/FILM_TEAM_ACTIVATION.md` |

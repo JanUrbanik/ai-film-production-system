@@ -1,6 +1,6 @@
 # AI Film Production System
 
-**Status:** v1.2.3 production-ready kit (Imagine Image 2.0 stills + Video 1.5 + Grok-as-camera + marketplace plugins)  
+**Status:** v1.2.4 production-ready kit (Image 2.0 stills + Video 1.5 + shot-script standard + Grok-as-camera + plugins)  
 **Date:** 2026-08-08  
 **Release:** https://github.com/JanUrbanik/ai-film-production-system/releases  
 **Deploy:** `05_Workflows/PRODUCTION_DEPLOY.md` · `05_Workflows/DEPLOYMENT_CHECKLIST.md` · **Status:** `PROJECT_STATUS.md` · **Changelog:** `CHANGELOG.md`  
@@ -43,6 +43,7 @@ A practical, honesty-labeled system for making **short-to-long AI narrative vide
 | 7 | `05_Workflows/MVP_SHORT_FILM_RUNBOOK.md` | MVP path |
 | 8 | `05_Workflows/INJECTION_ENGINE.md` + engines/ | Bibles → packets |
 | 9 | `03_Knowledge/PRACTITIONER_GROK_AS_CAMERA.md` | Grok-as-camera method (Odyssey) |
+| 9b | `03_Knowledge/TRANSCRIPT_TO_SHOT_SCRIPT.md` | Prose → anti-drift shot script standard |
 | 10 | `09_Bridge/MASTER_BUILDER_HANDOFF.md` | Builder governance bridge |
 | 11 | `06_Roadmaps/ROADMAP_SCALE_TEAM_AND_ADVANCED_PLUGINS.md` | Next phase: scale team + advanced plugins |
 
@@ -180,3 +181,4 @@ Bridge: charter a FULL job in Master Builder → deliver a film project brief �
 | 1.2.1 | 2026-08-08 | README marketplace docs; verify script + stack snapshot; release finalize |
 | 1.2.2 | 2026-08-08 | Phase A: archive sims → `11_Archive/`, `PRODUCTION_DEPLOY.md`, status hygiene |
 | 1.2.3 | 2026-08-08 | Imagine Image 2.0 stills default; SuperGrok Heavy spend law; Phase B smoke pack |
+| 1.2.4 | 2026-08-09 | Transcript-to-shot-script standard + wardrobe tracking + GEN_PROMPT lint |
