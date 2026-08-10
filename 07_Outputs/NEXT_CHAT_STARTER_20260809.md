@@ -93,3 +93,6 @@ Confirm still=no mp4=no unless I say assets landed.
 
 Confirm reads in ≤12 bullets, then execute. Stop for approval before paid API Imagine volume, new plugin installs, or skipping Phase B for pilots.
 ```
+
+
+**Superseded by:** `07_Outputs/NEXT_CHAT_STARTER_20260810.md` (use that for new chats).
