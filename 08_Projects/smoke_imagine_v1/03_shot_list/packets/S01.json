@@ -11,8 +11,11 @@
   "aspect": "16:9",
   "resolution": "720p",
   "source_still": "02_refs/start_frames/S01_start_v1.png",
-  "source_video": null,
-  "refs": ["LOC_001/DUSK", "LOOK_001"],
+  "source_video": "04_gen/S01/S01_take01.mp4",
+  "refs": [
+    "LOC_001/DUSK",
+    "LOOK_001"
+  ],
   "reference_images": [
     {
       "role": "start_frame",
@@ -22,7 +25,9 @@
   ],
   "bible_pins": {
     "character": [],
-    "environment": ["LOC_001/DUSK"],
+    "environment": [
+      "LOC_001/DUSK"
+    ],
     "props": [],
     "wardrobe": [],
     "style": "style_smoke_v1"
@@ -52,10 +57,10 @@
   "ledger": "supergrok_heavy_weekly",
   "surface": "consumer_imagine",
   "phase_b": {
-    "b1_auth": "pending_director",
-    "b2_still": "pending_download",
-    "b3_gate": "pending",
-    "b4_i2v": "pending_download",
-    "b5_report": "07_Outputs/IMAGINE_SMOKE_20260809.md"
+    "b1_auth": "studio_build_mode",
+    "b2_still": "landed",
+    "b3_gate": "studio_pass_soft",
+    "b4_i2v": "landed",
+    "b5_report": "09_qc_log/PHASE_B_SMOKE_LAND_20260811.md"
   }
 }

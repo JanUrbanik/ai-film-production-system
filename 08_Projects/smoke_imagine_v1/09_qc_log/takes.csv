@@ -1,3 +1,4 @@
 shot_id,take,file,surface,ledger,duration_s,res,gate,qc,fail_tags,notes
 S01,start,02_refs/start_frames/S01_start_v1.png,grok.com/imagine Image2.0,supergrok_heavy_weekly,0,still,PENDING,,,await_director_download
 S01,01,04_gen/S01/S01_take01.mp4,grok.com/imagine video1.5 i2v,supergrok_heavy_weekly,6,720p,PENDING,,,await_director_download
+S01,1,grok-imagine-video-1.5,pass,I2V from S01_start_v1 in Build Mode

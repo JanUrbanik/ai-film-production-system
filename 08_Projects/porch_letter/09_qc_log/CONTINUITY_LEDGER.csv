@@ -1,0 +1,5 @@
+SHOT,TIME OF DAY,WEATHER,LOCATION,WHO IS PRESENT,WHAT EACH WEARS,EMOTIONAL STATE,ITEMS CARRIED
+"S01","dusk","clear","doorway","","unspecified","physical only — see ACTION",""
+"S02","day","clear","doorway","Miranda Cole","unspecified","physical only — see ACTION","letter"
+"S03","night","clear","doorway","","unspecified","physical only — see ACTION","letter"
+"S04","day","clear","corridor","","unspecified","physical only — see ACTION","letter"

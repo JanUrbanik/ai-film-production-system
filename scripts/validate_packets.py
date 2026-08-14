@@ -72,6 +72,24 @@ def validate_one(path: Path, schema: dict) -> list[str]:
     if "status" in data and status_enum and data["status"] not in status_enum:
         errs.append(f"status not in {status_enum}: {data.get('status')}")
 
+    # Additive packet keys (junction, fov, master_prompt, last_fault, …) are legal.
+    # Do not reject unknown properties — Studio/CineKit write more than this schema lists.
+
+    jt = data.get("junction_type")
+    if jt is not None and jt not in (
+        None,
+        "Continuous",
+        "Scene_change",
+        "Temporal_ellipsis",
+    ):
+        errs.append(f"junction_type not recognized: {jt}")
+
+    if data.get("chain_from_previous") is True and jt in (
+        "Scene_change",
+        "Temporal_ellipsis",
+    ):
+        errs.append("chain_from_previous=true illegal on Scene_change / Temporal_ellipsis")
+
     dur = data.get("duration_target")
     if isinstance(dur, int):
         if dur < 1 or dur > 15:

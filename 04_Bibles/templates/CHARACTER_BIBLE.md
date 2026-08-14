@@ -51,8 +51,42 @@ REF: match attached reference images exactly for face and wardrobe.
 2. Multi-image edit or controlled regen for angles **from master**  
 3. Lock files; no silent replacements after LOCKED  
 
-## Dual-identity note (if any)
+## Voice record (register before production)
 
-- Soul ID = same face geometry  
-- Looks only swap wardrobe  
-- Reveal scenes must use soul refs + look B wardrobe only  
+| Field | Value |
+|-------|-------|
+| Voice source | native bonus take / external ADR / preset voice_id |
+| Identifier | |
+| Sample ref | |
+| Doctrine | Native dialogue is a bonus take, not the voice bible |
+
+## VDL — Visual Description Lock `[M]` LAW 4
+
+**Status:** AWAITING_APPROVED_IMAGE  
+
+Write **after** the 3+1 winner still is approved. Look at the image. If the image disagrees with DESCRIPTION, the image wins (LAW 5) and DESCRIPTION is corrected.
+
+```
+VDL {{CHAR_ID}}:
+  <1–2 sentences from the approved still>
+  - wardrobe / surface that must not drift
+  - 1–2 hook features actually visible
+  - explicit negations (no hat, no tie, …)
+```
+
+## Invariants `[M]`
+
+```
+INV {{CHAR_ID}}:
+  1. <permanent physical fact>
+  2. <state rule>
+  3. <conditional rule>
+```
+
+## 3+1 plate workflow
+
+1. Three **separate** Image 2.0 variant calls (never one batch of 3)
+2. Director selects winner
+3. Shoot 5-angle set from winner (front, ¾ L, profile, back, tight face)
+4. Dual channel: adapter ref-set id **and** file path
+5. Then write VDL from the image

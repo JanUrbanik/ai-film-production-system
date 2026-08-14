@@ -49,14 +49,20 @@ Across shot_ids in same scene:
 - [ ] Style contract not abandoned  
 - [ ] Audio cast consistent enough for cut  
 
-## Repair ladder
+## Repair ladder (Director 2026-08-13 — 7 steps)
+
+Work top to bottom. Stop at the first fix that works. Identity fail first.
 
 1. Trim to stable region  
-2. Replace with insert / OTS  
-3. Video **edit** for local fix  
-4. **Extend** from last good frame  
-5. Full regen with tighter refs  
-6. Open optional adapter (chartered only)  
+2. Insert / OTS / coverage (not the speech-FAIL default)  
+3. Local video **edit**  
+4. **Extend** from last **good** frame (chain OFF unless junction = Continuous **and** prior PASS)  
+5. Regen take — one defect + keep-list (fault note). Spoken line = in-camera re-take, not hide-mouth ADR  
+6. **New start frame** if the still itself is the lie  
+7. **New `/STATE` + new VDL** if the story actually changed (wet, night, damaged)
+
+**Escalate:** two FAIL cycles on the same shot → Director. Do not burn the pool.  
+**Never assemble around a hole.** Assembly reads `MANIFEST.csv` current rows only.
 
 ## Log format (`09_qc_log/takes.csv`)
 

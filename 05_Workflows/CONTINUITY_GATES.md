@@ -32,8 +32,20 @@ Same look IDs, light family, geography, no wardrobe teleport.
 Cast size, style contract, audio cast, Director taste.  
 Feature adds **act gate** between sequence and global (R1 + R9): act goals met, look pins stable.
 
-## Repair ladder
-1 trim · 2 insert/OTS · 3 video edit · 4 extend · 5 regen · 6 adapter (chartered)
+## Repair ladder (Director 2026-08-13 — 7 steps)
+
+Work top to bottom. Stop at the first fix. Identity fail first.
+
+1. Trim / cut around it  
+2. Insert / OTS / coverage (only if the hero take’s face is already good)  
+3. Local video edit  
+4. Extend from last **good** frame  
+5. Regen take (fault note: one defect + keep-list)  
+6. **New start frame** (the still itself is the lie)  
+7. **New `/STATE` + new VDL from the new still** (story actually changed)
+
+**Stop rules:** two FAIL cycles on the same shot → escalate. Do not assemble around a hole.  
+Adapter (chartered) is **not** a default step.
 
 ## Extend junction extra checks
 - Seam morph  

@@ -26,9 +26,12 @@ HOLD: face and wardrobe from start frame/refs; no identity drift
 ## Factory notes
 
 - Prefer **I2V** from a still that already has correct mouth-neutral or pre-speech face.  
-- Native audio may include the line — **Assumed** variable sync; R9 checks intelligibility; R11 may replace with VO.  
-- Preset `voice_id` only if account/policy allows (see Imagine matrix); not arbitrary clone.  
-- If lips fail QC, keep take for picture and ADR, or prefer OTS/side angles (coverage).  
+- Spoken line → **`LIPSYNC:YES`**. Mouth **moves in-camera** on Video 1.5 (Director override 2026-08-13).  
+- Native audio is in-pass. There is **no** post-hoc lip-sync / Higgsfield re-glue.  
+- If lips fail QC: **re-take the same plate** with a tighter SPEECH / BEATS block. Do **not** default to hide-mouth OTS or picture-lock + ADR.  
+- OTS / profile remain legal **coverage** (reaction, identity hide, or a line you *planned* to ADR). They are not the speech-FAIL default.  
+- Preset `voice_id` only if account/policy allows (matrix `[U]`); not arbitrary clone.  
+- One visible speaker per `LIPSYNC:YES` clip. Two-handers = more cards, not one gen.  
 
 ## Anti-patterns
 

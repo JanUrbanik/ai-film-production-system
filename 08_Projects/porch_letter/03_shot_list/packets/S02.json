@@ -1,0 +1,67 @@
+{
+  "shot_id": "S02",
+  "sequence": "SCENE_1",
+  "project": "porch_letter",
+  "mode": "i2v",
+  "model_video": "grok-imagine-video-1.5",
+  "model_image": "imagine-image-2.0-quality",
+  "image_surface": "consumer_imagine_2.0",
+  "duration_target": 7,
+  "duration_policy": "standard_8s_cap",
+  "aspect": "16:9",
+  "resolution": "720p",
+  "source_still": "02_refs/start_frames/S02_start_v1.png",
+  "source_video": null,
+  "refs": [
+    "CHAR_001",
+    "LOC_001",
+    "LOC_002",
+    "PROP_001",
+    "LOOK_001"
+  ],
+  "reference_images": [
+    {
+      "role": "start_frame",
+      "path": "02_refs/start_frames/S02_start_v1.png",
+      "tag": "FRAME_0"
+    }
+  ],
+  "bible_pins": {
+    "character": [
+      "CHAR_001"
+    ],
+    "environment": [
+      "LOC_001",
+      "LOC_002"
+    ],
+    "props": [
+      "PROP_001"
+    ],
+    "wardrobe": [],
+    "style": "LOOK_001"
+  },
+  "framing": "medium-wide following",
+  "lens": "35mm",
+  "screen_direction": "subject advances toward camera / frame center",
+  "lipsync": false,
+  "dialogue": null,
+  "dialogue_delivery": null,
+  "vo_segment": "NONE",
+  "takes_planned": 1,
+  "adapter": null,
+  "gen_prompt_lint": "pass",
+  "prompt": {
+    "identity_block": "CHAR_001",
+    "env_block": "doorway",
+    "prop_block": "PROP_001",
+    "camera": "medium-wide following; 35mm; slow push-in on locked axis",
+    "action": "Miranda Cole stands just inside the doorway, a wool charcoal coat still on, a sealed letter in her right hand. She looks back down the corridor, then at the letter. She walks toward the doorway. The floorboards creak. A thin curtain at the door edge stirs once.",
+    "audio_note": "room tone; motivated SFX only",
+    "negatives": "no text, no watermark, no extra people, no distorted hands, no modern anachronisms",
+    "full_text": "Photoreal cinematic shot. Miranda Cole in the doorway. Miranda Cole stands just inside the doorway, a wool charcoal coat still on, a sealed letter in her right hand. She looks back down the corridor, then at the letter. She walks toward the doorway. The floorboards creak. A thin curtain at the door edge stirs once. Camera: medium-wide following, 35mm, slow push-in on locked axis. Light: motivated natural/practical light; photoreal cinematic. What the camera sees only; no text, no watermark. 16:9, 720p."
+  },
+  "status": "draft",
+  "cost_estimate_usd": null,
+  "ledger": "supergrok_heavy_weekly",
+  "surface": "consumer_imagine"
+}

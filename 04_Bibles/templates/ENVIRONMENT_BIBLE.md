@@ -31,12 +31,30 @@
 | L_magic | | |
 | L_night | | |
 
-## Establishing pack checklist
+## Stage Map `[M]` — write from approved location image
 
-- [ ] Wide master  
-- [ ] Opposite angle  
-- [ ] Detail / texture plate  
-- [ ] Empty plate for coverage  
+```
+STAGE_MAP {{LOC_ID}}:
+  anchor_object:
+  landmarks:     relative to the anchor only
+  zones:
+  entrances_exits:
+  light_sources: direction + practicals
+```
+
+All blocking uses only these landmarks. No "left third of frame."
+
+## VDL `[M]` LAW 4
+
+**Status:** AWAITING_APPROVED_IMAGE  
+
+```
+VDL {{LOC_ID}}:
+  <1–2 sentences from the approved still>
+  - materials / palette that must not drift
+  - hook landmarks visible in the still
+  - explicit negations
+```
 
 ## Frozen env preamble
 

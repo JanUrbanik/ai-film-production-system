@@ -1,0 +1,2 @@
+clip_id,job_id,status,path,duration,resolution,attempt_n,credit_path,timestamp,prompt_hash
+S01,,landed,04_gen/S01/S01_take01.mp4,6,720p,1,supergrok_heavy_weekly,2026-08-11T10:04:00.000Z,smoke_s01_take01

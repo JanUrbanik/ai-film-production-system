@@ -13,6 +13,7 @@
     "bible_pins",
     "status"
   ],
+  "additionalProperties": true,
   "properties": {
     "shot_id": { "type": "string", "pattern": "^S[0-9A-Za-z_-]+$" },
     "sequence": { "type": "string" },
@@ -53,6 +54,25 @@
     "vo_segment": { "type": ["string", "null"] },
     "framing": { "type": ["string", "null"] },
     "lens": { "type": ["string", "null"] },
+    "fov_deg": {
+      "type": ["number", "null"],
+      "description": "Primary optics control. mm remains a human label."
+    },
+    "chain_from_previous": {
+      "type": "boolean",
+      "default": false,
+      "description": "Derived from junction_type. Continuous=true."
+    },
+    "junction_type": {
+      "type": ["string", "null"],
+      "enum": ["Continuous", "Scene_change", "Temporal_ellipsis", null]
+    },
+    "first_frame": { "type": ["string", "null"] },
+    "body": { "type": ["string", "null"] },
+    "gaze": { "type": ["string", "null"] },
+    "physics": { "type": ["string", "null"] },
+    "master_prompt": { "type": ["string", "null"] },
+    "attachment_convention_id": { "type": ["string", "null"] },
     "gen_prompt_lint": {
       "type": "string",
       "enum": ["pass", "fail", "unchecked"],
@@ -111,7 +131,21 @@
     },
     "status": {
       "type": "string",
-      "enum": ["draft", "ready", "gen", "qc", "pass", "fail"]
+      "enum": [
+        "draft",
+        "ready",
+        "gen",
+        "qc",
+        "pass",
+        "fail",
+        "landed",
+        "regen_requested"
+      ],
+      "description": "Additive statuses: landed = take on disk not yet R9 PASS; regen_requested = Director fault queued. Unknown future keys must not be stripped by validators."
+    },
+    "last_fault": {
+      "type": ["object", "null"],
+      "description": "Director reject note; additive. Do not strip."
     },
     "cost_estimate_usd": { "type": ["number", "null"] }
   }

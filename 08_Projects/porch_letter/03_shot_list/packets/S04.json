@@ -1,0 +1,64 @@
+{
+  "shot_id": "S04",
+  "sequence": "SCENE_2",
+  "project": "porch_letter",
+  "mode": "i2v",
+  "model_video": "grok-imagine-video-1.5",
+  "model_image": "imagine-image-2.0-quality",
+  "image_surface": "consumer_imagine_2.0",
+  "duration_target": 4,
+  "duration_policy": "standard_8s_cap",
+  "aspect": "16:9",
+  "resolution": "720p",
+  "source_still": "02_refs/start_frames/S04_start_v1.png",
+  "source_video": null,
+  "refs": [
+    "LOC_002",
+    "LOC_003",
+    "PROP_001",
+    "LOOK_001"
+  ],
+  "reference_images": [
+    {
+      "role": "start_frame",
+      "path": "02_refs/start_frames/S04_start_v1.png",
+      "tag": "FRAME_0"
+    }
+  ],
+  "bible_pins": {
+    "character": [],
+    "environment": [
+      "LOC_002",
+      "LOC_003"
+    ],
+    "props": [
+      "PROP_001"
+    ],
+    "wardrobe": [],
+    "style": "LOOK_001"
+  },
+  "framing": "close-up insert",
+  "lens": "85mm shallow",
+  "screen_direction": "object centered; hands enter from below if needed",
+  "lipsync": false,
+  "dialogue": null,
+  "dialogue_delivery": null,
+  "vo_segment": "NONE",
+  "takes_planned": 1,
+  "adapter": null,
+  "gen_prompt_lint": "pass",
+  "prompt": {
+    "identity_block": "",
+    "env_block": "corridor",
+    "prop_block": "PROP_001",
+    "camera": "close-up insert; 85mm shallow; locked tripod",
+    "action": "She steps onto the porch, the letter still unopened, and the corridor behind her goes still.",
+    "audio_note": "room tone; motivated SFX only",
+    "negatives": "no text, no watermark, no extra people, no distorted hands, no modern anachronisms",
+    "full_text": "Photoreal cinematic shot. the corridor. She steps onto the porch, the letter still unopened, and the corridor behind her goes still. Camera: close-up insert, 85mm shallow, locked tripod. Light: motivated natural/practical light; photoreal cinematic. What the camera sees only; no text, no watermark. 16:9, 720p."
+  },
+  "status": "draft",
+  "cost_estimate_usd": null,
+  "ledger": "supergrok_heavy_weekly",
+  "surface": "consumer_imagine"
+}

@@ -1,0 +1,63 @@
+{
+  "shot_id": "S03",
+  "sequence": "SCENE_1",
+  "project": "porch_letter",
+  "mode": "i2v",
+  "model_video": "grok-imagine-video-1.5",
+  "model_image": "imagine-image-2.0-quality",
+  "image_surface": "consumer_imagine_2.0",
+  "duration_target": 6,
+  "duration_policy": "standard_8s_cap",
+  "aspect": "16:9",
+  "resolution": "720p",
+  "source_still": "02_refs/start_frames/S03_start_v1.png",
+  "source_video": null,
+  "refs": [
+    "LOC_001",
+    "PROP_001",
+    "LOOK_002",
+    "LOOK_001"
+  ],
+  "reference_images": [
+    {
+      "role": "start_frame",
+      "path": "02_refs/start_frames/S03_start_v1.png",
+      "tag": "FRAME_0"
+    }
+  ],
+  "bible_pins": {
+    "character": [],
+    "environment": [
+      "LOC_001"
+    ],
+    "props": [
+      "PROP_001"
+    ],
+    "wardrobe": [],
+    "style": "LOOK_001"
+  },
+  "framing": "medium close-up",
+  "lens": "50mm shallow depth",
+  "screen_direction": "subject faces camera-right",
+  "lipsync": true,
+  "dialogue": "You came back,",
+  "dialogue_delivery": "as written; natural, unforced",
+  "vo_segment": "NONE",
+  "takes_planned": 1,
+  "adapter": null,
+  "gen_prompt_lint": "pass",
+  "prompt": {
+    "identity_block": "",
+    "env_block": "doorway",
+    "prop_block": "PROP_001",
+    "camera": "medium close-up; 50mm shallow depth; locked tripod",
+    "action": "she says, barely above a whisper. No one answers. Miranda turns the letter over. The paper is cheap, cream, edges soft from being carried. She does not open it. Night presses in through the doorway.",
+    "audio_note": "dialogue + room tone",
+    "negatives": "no text, no watermark, no extra people, no distorted hands, no modern anachronisms",
+    "full_text": "Photoreal cinematic shot. the doorway. she says, barely above a whisper. No one answers. Miranda turns the letter over. The paper is cheap, cream, edges soft from being carried. She does not open it. Night presses in through the doorway. Camera: medium close-up, 50mm shallow depth, locked tripod. Light: night practicals; motivated lamps; deep shadows. What the camera sees only; no text, no watermark. Someone speaks, mouth visible: \"You came back,\". 16:9, 720p."
+  },
+  "status": "draft",
+  "cost_estimate_usd": null,
+  "ledger": "supergrok_heavy_weekly",
+  "surface": "consumer_imagine"
+}

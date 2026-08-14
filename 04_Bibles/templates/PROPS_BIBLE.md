@@ -35,6 +35,12 @@ PROP LOCK — {{PROP_NAME}}: {{materials}}, {{logo}}, {{state}}.
 Scale correct vs hands. NEGATIVE: prop morph, logo change, wrong color.
 ```
 
+## VDL `[M]` LAW 4
+
+**Status:** AWAITING_APPROVED_IMAGE  
+
+Written from the approved still. Costume/wardrobe items stay **ledger-only** unless they are hero props.
+
 ## Imagine path
 
 Image quality model for sheets; R2V with `<IMAGE_n>` for prop-in-scene; video edit for state swaps when cheaper.  

@@ -14,3 +14,7 @@ auth.json
 *.mov
 *.wav
 !10_Sources/**/*.jpg
+# Phase B smoke proof only (Director 2026-08-14) — keep other gen dumps ignored
+!08_Projects/smoke_imagine_v1/04_gen/
+!08_Projects/smoke_imagine_v1/04_gen/S01/
+!08_Projects/smoke_imagine_v1/04_gen/S01/S01_take01.mp4
